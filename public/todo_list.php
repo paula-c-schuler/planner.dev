@@ -5,6 +5,8 @@
 <html>
 <head>
 	<title>To Do List</title>
+	<link rel="stylesheet" a href="/css/site.css" >
+	
 </head>
 <body>
 	<h1>To Do List</h1>

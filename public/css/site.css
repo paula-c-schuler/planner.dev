@@ -1,0 +1,35 @@
+/*All images files or other file imports will have
+links relative to the CSS folder. Therefore
+(../img/filename)   */
+
+h1 {
+	color: #174B4B;
+	text-decoration: underline;
+	text-align: center;
+}
+
+body {
+	background-color: #408080;
+}
+
+body{
+	background-image: url(../img/symphony.png);
+}
+
+ul{
+	text-align: center;
+}
+
+li{
+	list-style: decimal-leading-zero;
+	list-style: center;
+}
+
+html{
+	font-family: Verdana, Sans-Serif;
+	font-style: italic;
+}
+
+div{
+	padding
+}
