@@ -1,0 +1,15 @@
+
+
+nav, footer {
+	height: 50px;
+	background-color: grey;
+}
+
+li {
+	list-style-type: none;
+	width: 120px;
+	height: 50px;
+	padding-top: 13px;
+	font-weight: bold;
+	float: left;
+}
