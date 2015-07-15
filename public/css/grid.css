@@ -124,6 +124,12 @@ this pulls out the margin soo they don't touch side by side
 .offset-two-thirds {
 	margin-left: 66.67%;
 }
+.offset-three-fourths {
+    margin-left: 75%;
+}
+.offset-four-fifths {
+    margin-left: 80%;
+}
 
 
 .right {
