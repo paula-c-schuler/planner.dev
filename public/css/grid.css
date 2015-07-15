@@ -3,11 +3,15 @@ html {
     box-sizing: border-box;
 }
 *, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: inherit;
+
 }
 /* Remember to link CSS files to project */
 
 /*CONTAINERS*/
+
 .container {
     margin: auto;
     max-width: 1200px;
@@ -23,9 +27,11 @@ this pulls out the margin soo they don't touch side by side
 -10 gets full width, commented out there is default pad 10px */
 
 /*ROWS*/
+
 .row {
     /* as wide as the container max */
     width: 100%;
+    margin: 0;
 }
 
 .row:after {
@@ -34,53 +40,66 @@ this pulls out the margin soo they don't touch side by side
     clear: both;
 }
 
-/*COLUMNS*/
-.column {
+/* COLUMNS */
+
+.col-1-1, .column {
     float: left;
     padding: 10px;
     width: 100%;
 }
-.one-twelfth {
+.col-1-12  {
     width: 8.33%;
 }
-.one-eighth {
+.col-1-8 {
     width: 12.5%;
 }
-.one-sixth {
+.col-1-6, .col-2-12 {
     width: 16.66%;
 }
-.one-fifth {
+.col-1-5 {
     width: 20%;
 }
-.one-fourth {
+.col-1-4, .col-3-12 {
     width: 25%;
 }
-.one-third {
+.col-1-3, .col-4-12 {
     width: 33.3%;
 }
-.three-eighths {
+.col-3-8 {
 	width: 37.5%;
 }
-.two-fifths {
+.col-2-5 {
     width: 40%;
 }
-.one-half {
+.col-1-2, .col-6-12 {
     width: 50%;
 }
-.two-thirds {
+.col-2-3, .col-8-12 {
 	width: 66.1%;
 }
-.five-eighths {
+.col-5-8 {
     width: 62.5%;
 }
-.three-fourths {
+.col-3-4, .col-9-12 {
     width: 75%;
 }
-.four-fifths {
+.col-4-5 {
     width: 80%;
 }
 
-/*OFFSETS*/
+/* COLUMN GUTTERS */
+
+/* Adds 10 px padding right of every column except the far right column */
+[class*='col-'] {
+  padding-right: 10px;
+}
+[class*='col-']:last-of-type {
+  padding-right: 0;
+}
+
+
+/* OFFSETS */
+
 .offset-one-twelfth {
     margin-left: 8.33%;
 }
@@ -105,3 +124,10 @@ this pulls out the margin soo they don't touch side by side
 .offset-two-thirds {
 	margin-left: 66.67%;
 }
+
+
+.right {
+    float: right;
+}
+
+
