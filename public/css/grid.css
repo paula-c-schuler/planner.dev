@@ -13,7 +13,7 @@ html {
 /*CONTAINERS*/
 
 .container {
-    margin: auto;
+    margin: 0;
     max-width: 1200px;
 }
 
@@ -40,10 +40,12 @@ this pulls out the margin soo they don't touch side by side
     clear: both;
 }
 
+
+
 /* COLUMNS */
 
 .col-1-1, .column {
-    float: left;
+    /*float: left;*/
     padding: 10px;
     width: 100%;
 }
@@ -90,12 +92,12 @@ this pulls out the margin soo they don't touch side by side
 /* COLUMN GUTTERS */
 
 /* Adds 10 px padding right of every column except the far right column */
-[class*='col-'] {
+/*[class*='col-'] {
   padding-right: 10px;
 }
 [class*='col-']:last-of-type {
   padding-right: 0;
-}
+}*/
 
 
 /* OFFSETS */
@@ -109,6 +111,9 @@ this pulls out the margin soo they don't touch side by side
 .offset-one-sixth {
     margin-left: 16.66%;
 }
+.offset-one-fifth {
+    margin-left: 20%;
+}
 .offset-one-fourth {
     margin-left: 25%;
 }
@@ -119,7 +124,16 @@ this pulls out the margin soo they don't touch side by side
 	margin-left: 37.5%;
 }
 .offset-one-half {
-    margin-left: 50%;
+    left: 50%;
+}
+.offset-one-half-plus {
+    margin-left: 55%;
+}
+.offset-three-fifths {
+    margin-left: 60%;
+}
+.offset-three-plus-fifths {
+    margin-left: 62%;
 }
 .offset-two-thirds {
 	margin-left: 66.67%;
@@ -127,6 +141,7 @@ this pulls out the margin soo they don't touch side by side
 .offset-three-fourths {
     margin-left: 75%;
 }
+
 .offset-four-fifths {
     margin-left: 80%;
 }

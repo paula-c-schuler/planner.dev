@@ -1,5 +1,5 @@
 <?php 
-// include '/data.php';
+
  ?>
 
 <!DOCTYPE html>
@@ -20,69 +20,67 @@
 
 </head>
 <body>
+    <!-- Navigation Bar Top -->
+    <?php include 'navbar.php'; ?>
+
+    <!-- Begin Container -->
     <div class="container">
 
-        <!-- Navigation Bar Top -->
-        <nav class="row">
-            <ul class="column">
-           
-                <li><a href="#"></a>Home</li>
-                <li><a href="#"></a>About</li>
-                <li><a href="#"></a>Books</li>
-                <li><a href="#"></a>Coaching</li>
-            </ul>
-        </nav>
-
+        <!-- Hero -->
         <div class="row hero-home hero-large">
             <div class="offset-one-third col-1-3 hero-box-large">
-                <h1>Esther Hershenhorn</h1>
+                <h1 class="hero-text">Esther Hershenhorn</h1>
             </div>
         </div>
 
         <!-- Begin Summaries -->
         <div class="row">
             <div class="col-1-3 summary">
-                <a class="offset-one-third" href=""><i class="icon icon-5x icon-star"></i></a>
+                <a class="offset-one-third" href="about.php"><i class="icon icon-5x icon-star"></i></a>
                 <h3 class="offset-one-third">About</h3>
-                <p>Lucky me! I spend my days doing what I love and loving what I do! I write 
+                <p>
+                    Lucky me! I spend my days doing what I love and loving what I do! I write 
                     picture books, board books, middle grade fiction. I teach adults writing for
                     children and coach writers of all ages to help them tell their stories. 
                 </p>
-                <a href="">More</a>
+                <a href="about.php">More</a>
 
             </div>  
             <div class="col-1-3 summary">
                 <a class="offset-one-third" href=""><i class="icon icon-5x icon-book"></i></a>
                 <h3 class="offset-one-third">Books</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.</p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                </p>
                 <a href="">More</a>
             </div>
             <div class="col-1-3 summary">
-                <a class="offset-one-third" href=""><i class="icon icon-5x icon-exchange"></i></a>
+                <a class="offset-one-third" href="coaching.php"><i class="icon icon-5x icon-exchange"></i></a>
                 <h3 class="offset-one-third">Coaching</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.</p>
-                <a href="">More</a>
+                <p>
+                    Working with writers wherever they are in the writing and publishing process, I help them
+                    discover, craft and market their stories. Coaching clients include authors who publish 
+                    through traditional and independent channels. I conduct one-on-one sessions in person 
+                    or on communications devices for manuscript feedback and immediate answers to questions. 
+                </p>
+                <a href="coaching.php">More</a>
             </div>  
             </hr>  
         </div>
+        
 
-        <footer>
-            <div class="byline"> &copy; 2015 Esther Hershenhorn 
-            </div>
-        </footer>
+        <!-- Contact Button -->
+        <?php include 'contact-button.html'; ?>
+    </div>
+    <!-- Footer -->
+    <?php include 'footer.php'; ?>
 
-
-
-
-
-
+    
+    <script type="text/javascript" src="/js/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-</div>
+
 </body>
 </html>
