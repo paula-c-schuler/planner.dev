@@ -11,12 +11,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link rel="stylesheet" type="text/css" href="/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 
     <script src="https://use.fonticons.com/6f4f57ed.js"></script>
 
-  <title>Esther</title>
+  <title>Esther Coaching</title>
 
 </head>
 <body>
@@ -27,9 +27,9 @@
     <div class="container">
 
         <!-- Hero -->
-        <div class="row hero-home hero-large">
+        <div class="row hero-color-block">
             <div class="offset-one-third col-1-3 hero-box-large">
-                <h1 class="hero-text">quote on coaching</h1>
+                <h1 class="">quote on coaching</h1>
             </div>
         </div>
 
@@ -94,7 +94,7 @@
         <?php include 'contact-button.html'; ?>
 
     </div>
-    
+
     <!-- Footer -->
     <?php include 'footer.php'; ?>
 

@@ -11,12 +11,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link rel="stylesheet" type="text/css" href="/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 
     <script src="https://use.fonticons.com/6f4f57ed.js"></script>
 
-  <title>Esther</title>
+  <title>Esther Home</title>
 
 </head>
 <body>
@@ -27,54 +27,58 @@
     <div class="container">
 
         <!-- Hero -->
-        <div class="row hero-home hero-large">
+        <div class="row hero-color-block">
             <div class="offset-one-third col-1-3 hero-box-large">
-                <h1 class="hero-text">Esther Hershenhorn</h1>
+                <h1 class="">Esther Hershenhorn</h1>
             </div>
         </div>
 
         <!-- Begin Summaries -->
         <div class="row">
-            <div class="col-1-3 summary">
+            <div class="col-md-4 top-buffer-8">
                 <a class="offset-one-third" href="about.php"><i class="icon icon-5x icon-star"></i></a>
                 <h3 class="offset-one-third">About</h3>
-                <p>
+                <p class="summary">
                     Lucky me! I spend my days doing what I love and loving what I do! I write 
                     picture books, board books, middle grade fiction. I teach adults writing for
                     children and coach writers of all ages to help them tell their stories. 
                 </p>
-                <a href="about.php">More</a>
+                <a class="summary" href="about.php">More</a>
 
             </div>  
-            <div class="col-1-3 summary">
+            <div class="col-md-4 top-buffer-8">
                 <a class="offset-one-third" href=""><i class="icon icon-5x icon-book"></i></a>
                 <h3 class="offset-one-third">Books</h3>
-                <p>
+                <p class="summary">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                     consequat.
                 </p>
-                <a href="">More</a>
+                <a class="summary" href="">More</a>
             </div>
-            <div class="col-1-3 summary">
+            <div class="col-md-4 top-buffer-8">
                 <a class="offset-one-third" href="coaching.php"><i class="icon icon-5x icon-exchange"></i></a>
-                <h3 class="offset-one-third">Coaching</h3>
-                <p>
+                <h3 class="offset-one-fourth-plus">Coaching</h3>
+                <p class="summary">
                     Working with writers wherever they are in the writing and publishing process, I help them
                     discover, craft and market their stories. Coaching clients include authors who publish 
                     through traditional and independent channels. I conduct one-on-one sessions in person 
                     or on communications devices for manuscript feedback and immediate answers to questions. 
                 </p>
-                <a href="coaching.php">More</a>
+                <a class="summary" href="coaching.php">More</a>
             </div>  
             </hr>  
+        </div>
+
+<!-- nice on small screens up to 990, add class for large screens -->
+        <div class="row pretty-divider col-md-12">
         </div>
         
 
         <!-- Contact Button -->
         <?php include 'contact-button.html'; ?>
-    </div>
+</div>
     <!-- Footer -->
     <?php include 'footer.php'; ?>
 

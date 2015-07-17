@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link rel="stylesheet" type="text/css" href="/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 
     <script src="https://use.fonticons.com/6f4f57ed.js"></script>
 
@@ -25,9 +25,9 @@
 	<div class="container">
 
         <!-- Hero -->
-        <div class="row hero-home hero-large">
+        <div class="row hero-color-block">
             <div class="offset-one-third col-1-3 hero-box-large">
-                <h1 class="hero-text">Once a teacher, always a teacher.</h1>
+                <h1 class="">Once a teacher, always a teacher.</h1>
             </div>
         </div>
 
@@ -148,7 +148,7 @@
       				Eventually, as I knew it would, my writer's plot line ended "happily-ever-after."
       				And lucky me! That Happy Ending spawned several New Beginnings.   
                 </p>
-                <a href="#contact">Contact</a>
+               
             </div>
         </section>
 
@@ -156,7 +156,7 @@
         <?php include 'contact-button.html'; ?>
         
 	</div>
-	
+
     <!-- Footer -->
     <?php include 'footer.php'; ?>
 

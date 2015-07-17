@@ -8,13 +8,14 @@ html {
     box-sizing: inherit;
 
 }
-/* Remember to link CSS files to project */
 
 /*CONTAINERS*/
 
 .container {
-    margin: 0;
     max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 0;
 }
 
 /*.column > .row {
@@ -117,14 +118,23 @@ this pulls out the margin soo they don't touch side by side
 .offset-one-fourth {
     margin-left: 25%;
 }
+.offset-one-fourth-plus {
+    margin-left: 29%;
+}
 .offset-one-third {
     margin-left: 33.3%;
+}
+.offset-one-third-plus {
+    margin-left: 35%;
 }
 .offset-three-eighths {
 	margin-left: 37.5%;
 }
+.offset-one-half-less {
+    margin-left: 43%;
+}
 .offset-one-half {
-    left: 50%;
+    margin-left: 50%;
 }
 .offset-one-half-plus {
     margin-left: 55%;
