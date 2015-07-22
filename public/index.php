@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="/css/grid.css">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
 
     <script src="https://use.fonticons.com/6f4f57ed.js"></script>
 
@@ -27,14 +27,19 @@
     <div class="container">
 
         <!-- Hero -->
-        <div class="row hero-color-block">
-            <div class="offset-one-third col-1-3 hero-box-large">
-                <h1 class="">Esther Hershenhorn</h1>
+        <section class="my-hero">
+            <div id="hero-message" class="hero-message">
+                <h1 id="author-name">Esther Hershenhorn</h1>
+                <h3 id="author-titles">Teacher, Author, Coach</h3>
             </div>
-        </div>
+            <div class="half-white hero-overlay"></div>
+            <div class="hero-solid-color">
+                <h2 id="index-quotes">This is for the quotes.</h2>
+            </div>
+        </section>
 
         <!-- Begin Summaries -->
-        <div class="row">
+        <div class="row ">
             <div class="col-md-4 top-buffer-8">
                 <a class="offset-one-third" href="about.php"><i class="icon icon-5x icon-star"></i></a>
                 <h3 class="offset-one-third">About</h3>
@@ -70,21 +75,21 @@
             </div>  
             </hr>  
         </div>
-
-<!-- nice on small screens up to 990, add class for large screens -->
+        <!-- Divider -->
         <div class="row pretty-divider col-md-12">
         </div>
         
 
         <!-- Contact Button -->
         <?php include 'contact-button.html'; ?>
-</div>
+    </div>
     <!-- Footer -->
     <?php include 'footer.php'; ?>
 
     
     <script type="text/javascript" src="/js/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/quotes.js"></script>
 
 </body>
 </html>

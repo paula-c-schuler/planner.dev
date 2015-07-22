@@ -1,5 +1,5 @@
 <?php 
-// include '/data.php';
+
  ?>
 <!DOCTYPE html>
 <html>
@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="/css/grid.css">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
 
     <script src="https://use.fonticons.com/6f4f57ed.js"></script>
 
@@ -25,15 +25,20 @@
     <div class="container">
 
         <!-- Hero -->
-        <div class="row hero-color-block">
-            <div class="offset-one-third col-1-3 hero-box-large">
-                <h1 class="">quote about books being awesome.</h1>
+        <section class="my-hero">
+            <div class="hero-message">
+                <h1 id="author-name">Esther Hershenhorn</h1>
+                <h3 id="author-titles">Teacher, Author, Coach</h3>
             </div>
-        </div>
+            <div class="half-white hero-overlay"></div>
+            <div class="hero-solid-color">
+                <h2 id="index-quotes">This is for the quotes.</h2>
+            </div>
+        </section>
 
         <!-- Begin Books List -->
 <!-- Texting -->
-            <div class="row book">
+            <div class="row book top-buffer-8">
                 <img class="col-md-2 offset-one-fifth top-buffer " src="/img/book-texting.jpg">
                 
                 <div class="col-md-6">
@@ -365,6 +370,7 @@
 
 	<script type="text/javascript" src="/js/jquery-2.1.4.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/quotes.js"></script>
 
 </body>
 </html>

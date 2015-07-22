@@ -1,0 +1,559 @@
+/* CONTENTS: 
+ * 
+ * COLORS
+ * 
+ * RESET
+ *
+ * BASIC HTML CUSTOMIZATION
+ * 
+ * HERO
+ *
+ * HELPERS
+ * 
+ * LINKS
+ *
+ *    ======= MEDIA QUERY CUSTOMIZATION template
+*/
+
+/*------------------------------------*\
+    #COLOR LIST
+\*------------------------------------*/
+
+body {
+	background-color: #fff;
+	color: #222;
+}
+
+nav, footer {
+	background-color: #000;
+	color: white;
+}
+
+.half-white {
+	background: rgba(255, 255, 255, 0.5);
+}
+.button-contact {
+	background-color: 3498db;
+}
+
+/* Contrast against dark backgrounds in the hero */
+.text-white {
+  color: #FFFFFF; 
+}
+/* Primary color for headings, special features */
+.text-primary {
+  color: #093266; 
+}
+/* Dark grey for subheadings */
+.text-secondary {
+  color: #34495e; 
+}
+/* Darkest font for paragraphs */
+.text-body {
+	color: #222;
+}
+
+
+/*------------------------------------*\
+    #RESET
+\*------------------------------------*/
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+html {
+  font-family: Helvetica, Roboto, Arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; 
+}
+
+/**
+ * Remove default margin 
+ */
+body {
+	margin: 0;
+}
+
+
+/*-------------------------------------*\
+	BASIC HTML TAG CUSTOMIZATION
+\*-------------------------------------*/
+
+
+body {
+  cursor: auto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  position: relative; 
+}
+
+a:hover {
+  cursor: pointer; 
+}
+
+/*
+ * Image fills entire parent 
+ */
+img {
+  max-width: 100%;
+  height: auto; 
+}
+
+/*
+ * Automates padding for paragraph text.
+ */
+p {
+	max-width: 80%;
+}
+
+
+/*-------------------------------------*\
+	NAVIGATION BAR
+\*-------------------------------------*/
+/*
+ * Auto adjusts height of nav and footer.
+ * Prevents images from scrolling on top of nav and footer.
+ */
+#navigation-top, footer {
+	height: auto;
+	z-index: 100;
+	width: 100%;
+	background: black;
+}
+
+#navigation-top {
+	position: fixed;
+	margin: 0 auto;
+}
+
+#navigation-top li, footer li  {
+	list-style-type: none;
+	padding: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*
+ * Adds a little space at the top of the footer
+ */
+footer li {
+	padding-top: 1.5rem;
+}
+
+/* TODO: SMALL SCREEN*/
+/* Medium devices (desktops, 600px and up) */
+/*=================================================*/
+@media screen and (min-width:640px) {
+	/*
+	 * Auto adjusts height of nav and footer.
+	 * Prevents images from scrolling on top of nav and footer.
+	 */
+	#navigation-top, footer {
+		height: auto;
+		z-index: 100;
+		width: 100%;
+		background: black;
+	}
+
+	#navigation-top {
+		position: fixed;
+		margin: 0 auto;
+	}
+
+	#navigation-top li, footer li  {
+		list-style-type: none;
+		padding: 1.5rem;
+		font-weight: bold;
+		width: 30rem;
+	}
+
+	/*
+	 * Adds a little space at the top of the footer
+	 */
+	footer li {
+		padding-top: 1.5rem;
+	}
+}
+
+
+/* TODO: MEDIUM SCREEN*/
+/*=================================================*/
+@media screen and (min-width:940px) {
+	/*
+	 * Auto adjusts height of nav and footer.
+	 * Prevents images from scrolling on top of nav and footer.
+	 */
+	#navigation-top, footer {
+		height: auto;
+		z-index: 100;
+		width: 100%;
+		background: black;
+	}
+
+	#navigation-top {
+		position: fixed;
+		margin: 0 auto;
+	}
+
+	#navigation-top li, footer li  {
+		list-style-type: none;
+		padding: 1.5rem;
+		font-weight: bold;
+		width: 20rem;
+	}
+
+	/*
+	 * Adds a little space at the top of the footer
+	 */
+	footer li {
+		padding-top: 1.5rem;
+	}
+}
+
+/* LARGE SCREENS */
+/*===========================================*/
+@media screen and (min-width:1200px) { 
+/*
+ * Auto adjusts height of nav and footer.
+ * Prevents images from scrolling on top of nav and footer.
+ */
+#navigation-top, footer {
+	height: auto;
+	z-index: 100;
+	width: 100%;
+	background: black;
+}
+
+#navigation-top {
+	position: fixed;
+	margin: 0 auto;
+}
+
+#navigation-top li, footer li  {
+	list-style-type: none;
+	padding: 1.5rem;
+	font-weight: bold;
+	width: 20rem;
+}
+
+/*
+ * Adds a little space at the top of the footer
+ */
+footer li {
+	padding-top: 1.5rem;
+}
+}
+
+
+/*-------------------------------------*\
+	HERO
+\*-------------------------------------*/
+/* EXTRA SMALL SCREEN less than 501px */
+/*===========================================================*/
+.my-hero {
+	display: hidden;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 35rem;
+	background-image: url("/img/cc/textura-de-color-azul-jkbenites-flickr.jpg");
+}
+
+/* Hero main text box and text styling */
+.hero-message {
+	padding-top: 22rem;
+	text-align: center;
+	color: #F1F1F2;
+	font-weight: bolder;
+	font-size: 2rem;
+}
+.hero-message #author-name {
+	text-align: center;
+}
+.hero-message #author-titles {
+	display: none;
+}
+.hero-solid-color #index-quotes {
+	display: none;
+}
+
+/* SMALL SCREEN */
+/*============================================================*/
+@media screen and (min-width:501px) {
+.my-hero {
+	display: hidden;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 38rem;
+	background-image: url("/img/cc/textura-de-color-azul-jkbenites-flickr.jpg");}
+
+/* Hero main text box and text styling */
+.hero-message {
+	padding-top: 22rem;
+	text-align: center;
+	color: #F1F1F2;
+	font-weight: bolder;
+	font-size: 2rem;
+}
+.hero-message #author-name {
+	text-align: center;
+}
+.hero-message #author-titles {
+	display: block;
+	text-align: center;
+}
+}
+
+
+/* SMALL-TO-MEDIUM SCREEN */
+/*============================================================*/
+@media screen and (min-width:640px) {
+.my-hero {
+	display: hidden;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 58rem;
+	background-image: url("/img/cc/textura-de-color-azul-jkbenites-flickr.jpg");}
+
+/* Hero main text box and text styling */
+.hero-message {
+	padding-top: 15rem;
+	text-align: center;
+	color: #F1F1F2;
+	font-weight: bolder;
+	font-size: 2rem;
+}
+.hero-message #author-name {
+	text-align: center;
+}
+.hero-message #author-titles {
+	display: block;
+	text-align: center;
+	margin-bottom: 4rem;
+}
+.hero-overlay {
+	width: 100%;
+	height: 10rem;
+}
+.hero-solid-color {
+	width: 100%;
+	height: 20rem;
+	background-color: #84ADDF;
+	
+}
+}
+
+/* MEDIUM SCREENS 
+/*===============================================================*/
+@media screen and (min-width:992px) {
+.my-hero {
+	display: hidden;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 58rem;
+	background-image: url("/img/cc/textura-de-color-azul-jkbenites-flickr.jpg");}
+
+/* Hero main text box and text styling */
+.hero-message {
+	padding-top: 15rem;
+	text-align: center;
+	color: #F1F1F2;
+	font-weight: bolder;
+	font-size: 2rem;
+}
+.hero-message #author-name {
+	text-align: center;
+}
+.hero-message #author-titles {
+	display: block;
+	text-align: center;
+	margin-bottom: 4rem;
+}
+.hero-overlay {
+	width: 100%;
+	height: 10rem;
+}
+.hero-solid-color {
+	width: 100%;
+	height: 20rem;
+	background-color: #84ADDF;
+	
+}
+
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+/*==================================================================*/
+@media screen and (min-width:1200px) { 
+.my-hero {
+	display: hidden;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 58rem;
+	background-image: url("/img/cc/textura-de-color-azul-jkbenites-flickr.jpg");}
+
+/* Hero main text box and text styling */
+.hero-message {
+	padding-top: 15rem;
+	text-align: center;
+	color: #F1F1F2;
+	font-weight: bolder;
+	font-size: 2rem;
+}
+.hero-message #author-name {
+	text-align: center;
+}
+.hero-message #author-titles {
+	display: block;
+	text-align: center;
+	margin-bottom: 4rem;
+}
+.hero-overlay {
+	width: 100%;
+	height: 10rem;
+}
+.hero-solid-color {
+	width: 100%;
+	height: 20rem;
+	background-color: #84ADDF;
+}
+#index-quotes {
+	text-align: center;
+	color: #093266;
+}
+}
+
+
+/*-------------------------------------*\
+	HELPERS
+\*-------------------------------------*/
+
+
+.inline {
+	display: inline-block;
+}
+
+/* Helps with layout of three columns of text on home page */
+.summary {
+	padding-left: 3rem; 
+}
+
+/* Helps adjust profile photo on about page */
+.image-profile {
+	margin-right: 10px;
+}
+
+/* Helps adjust social media link position on about page */
+.contact-links {
+	margin-top: 5rem;
+}
+
+/* Helps adjust placement of about page first section of story */
+.short-version {
+	margin-right: 10px;
+	margin-left: 5px;
+}
+
+/* Creates top margins */
+.top-buffer-4 {
+	margin-top: 4rem;
+}
+.top-buffer-8 {
+	margin-top: 8rem;
+}
+
+/* Creates bottom margins */
+.bottom-buffer-4 {
+	margin-bottom: 4rem;
+}
+
+.row-top-buffer {
+	padding-top: 4rem;
+}
+
+/* Helps position social media Fonticon icons */
+.icon-facebook-official {
+	margin-left: 5rem;
+}
+.icon-twitter {
+	margin-left: 3rem;
+}
+
+/* Helps position image on about page */
+.image-girl {
+	margin-top: 30px;
+}
+
+/* Thin grey line creates visual separation */
+.pretty-divider {
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+	background-color: grey;
+	height: .1rem;
+}
+
+/* Style for quotes from author books on book page */
+.book-quote {
+	padding-right: 5rem;
+	padding-left: 5rem;
+
+}
+
+/*------------------------------------*\
+	LINKS - NOT FINISHED
+\*------------------------------------*/
+
+/* Nav and Footer Links =====================*/
+nav a, footer a {
+	color: white;
+}
+
+
+/* Contact Button Link ============================*/
+/* Default colors */
+.button-contact {
+	background-color: #3498db;
+	color: white;
+}
+
+a:hover .button-contact {
+	opacity: .5;
+	color: grey;
+}
+
+
+
+
+
+@media screen and (min-width:501px) { 
+	
+}
+
+@media screen and (min-width:800px) {
+	
+}
+

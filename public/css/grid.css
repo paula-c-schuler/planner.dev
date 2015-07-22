@@ -104,13 +104,13 @@ this pulls out the margin soo they don't touch side by side
 /* OFFSETS */
 
 .offset-one-twelfth {
-    margin-left: 8.33%;
+    margin-left: 8%;
 }
 .offset-one-eighth {
-    margin-left: 12.5%;
+    margin-left: 12%;
 }
 .offset-one-sixth {
-    margin-left: 16.66%;
+    margin-left: 16%;
 }
 .offset-one-fifth {
     margin-left: 20%;
@@ -122,13 +122,13 @@ this pulls out the margin soo they don't touch side by side
     margin-left: 29%;
 }
 .offset-one-third {
-    margin-left: 33.3%;
+    margin-left: 33%;
 }
 .offset-one-third-plus {
     margin-left: 35%;
 }
 .offset-three-eighths {
-	margin-left: 37.5%;
+	margin-left: 37%;
 }
 .offset-one-half-less {
     margin-left: 43%;
@@ -146,7 +146,7 @@ this pulls out the margin soo they don't touch side by side
     margin-left: 62%;
 }
 .offset-two-thirds {
-	margin-left: 66.67%;
+	margin-left: 66%;
 }
 .offset-three-fourths {
     margin-left: 75%;

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="/css/grid.css">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
 
     <script src="https://use.fonticons.com/6f4f57ed.js"></script>
 
@@ -25,16 +25,21 @@
 	<div class="container">
 
         <!-- Hero -->
-        <div class="row hero-color-block">
-            <div class="offset-one-third col-1-3 hero-box-large">
-                <h1 class="">Once a teacher, always a teacher.</h1>
+        <section class="my-hero">
+            <div class="hero-message">
+                <h1 id="author-name">Esther Hershenhorn</h1>
+                <h3 id="author-titles">Teacher, Author, Coach</h3>
             </div>
-        </div>
+            <div class="half-white hero-overlay"></div>
+            <div class="hero-solid-color">
+                <h2 id="index-quotes">This is for the quotes.</h2>
+            </div>
+        </section>
 
-        <!-- Begin Summaries -->
+        <!-- Begin Short Version Section -->
         <section class="row">
             
-            <img class="col-md-4 offset-one-twelfth top-buffer " src="/img/EstherProfileSmall.jpg">
+            <img class="col-md-3 offset-one-sixth top-buffer-4" src="/img/EstherProfileSmall.jpg">
             
             <div id="contact" class="col-md-6 contact-links">
                 <h2>210-854-1466 
@@ -73,13 +78,17 @@
             </hr>
         </section>
 
+        <!-- Divider -->
+        <div class="row pretty-divider col-md-12">
+        </div>
+
+        <!-- Begin More of the Story Section  -->
         <section class="row">
-            <img class="col-md-4 offset-one-twelfth top-buffer image-girl" src="/img/esther-girl-sepia-smaller.jpg">
+            <img class="col-md-4 offset-one-twelfth image-girl" src="/img/esther-girl-sepia-smaller.jpg">
             
             <div class="col-md-6">
             	<br>
-            	<h4>More of The Story</h4>
-
+            	<h3>More of The Story</h3>
                 <p>
                 	I grew up in Philadelphia, Pennsylvania. (I'm the bonneted, kneeling first grade girl,  
                 	at Overbrook Elementary School's May Day celebration.) 
@@ -99,11 +108,10 @@
             </div>
         </section>
 
-        <section class="row">
-			<img class="col-md-4 offset-one-twelfth top-buffer" src="img/Penn-Wynn-sepia.jpg">
+        <section class="row row-top-buffer">
+			<img class="col-md-4 offset-one-twelfth " src="img/Penn-Wynn-sepia.jpg">
             
             <div class="col-md-6">
-            	<br>
                 <p>
                 	The Penn Wynne Library was but a stone's throw away from my new suburban home in 1955. 
                 </p>
@@ -123,14 +131,12 @@
                 </p>    
             </div>
         </section>
-        <section class="row">
+        <section class="row row-top-buffer">
             <div>
             	<!-- Image of Univ of Pennsylvania -->
-            	<img class="col-md-4 offset-one-twelfth top-buffer" src="img/Penn-Wynn-sepia.jpg">
+            	<img class="col-md-4 offset-one-twelfth " src="img/Penn-Wynn-sepia.jpg">
             </div>
             <div class="col-md-6">
-                <br>
-
                 <p>
                 	I earned a degree in Elementary Education from the University of Pennsylvania, minoring in Journalism, 
                 	and soon after began teaching fifth grade in Chicago.  
@@ -152,6 +158,10 @@
             </div>
         </section>
 
+        <!-- Divider -->
+        <div class="row pretty-divider col-md-12">
+        </div>
+
          <!-- Contact Button -->
         <?php include 'contact-button.html'; ?>
         
@@ -162,6 +172,7 @@
 
 	<script type="text/javascript" src="/js/jquery-2.1.4.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/quotes.js"></script>
 
 </body>
 </html>
