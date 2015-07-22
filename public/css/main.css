@@ -489,6 +489,7 @@ footer li {
 /* Creates bottom margins */
 .bottom-buffer-4 {
 	margin-bottom: 4rem;
+	text-align: center;
 }
 
 .row-top-buffer {
@@ -527,33 +528,31 @@ footer li {
 	LINKS - NOT FINISHED
 \*------------------------------------*/
 
-/* Nav and Footer Links =====================*/
+/* Nav and Footer Links */
+/* =============================================*/
 nav a, footer a {
 	color: white;
 }
 
-
-/* Contact Button Link ============================*/
-/* Default colors */
+/* Contact Button Link */
+/* ============================================*/
+/* Using bootstrap default color */
 .button-contact {
 	background-color: #3498db;
 	color: white;
+	margin-right: auto;
+	margin-left: auto;
+	width: 120px;
+	text-align: center;
+	border-radius: 10px;
+}
+/* Centers the button on the page */
+#button-contact {
+	text-align: center;
 }
 
 a:hover .button-contact {
 	opacity: .5;
 	color: grey;
-}
-
-
-
-
-
-@media screen and (min-width:501px) { 
-	
-}
-
-@media screen and (min-width:800px) {
-	
 }
 
