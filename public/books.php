@@ -32,7 +32,13 @@
             </div>
             <div class="half-white hero-overlay"></div>
             <div class="hero-solid-color">
-                <h2 id="index-quotes">This is for the quotes.</h2>
+                <br>
+                <br>
+                <br>
+                <h2 id="index-quotes">"Children are very good about finding mistakes. We get probably thousands of letters,<br>
+                 and some of them find mistakes in our books. As some readers know, Sister Bear always wears a pink hairbow. <br>
+                 In one book we forgot the hairbow, and we got a letter about it." <br>
+                 Stan and Jan Berenstain</h2>
             </div>
         </section>
 

@@ -32,7 +32,12 @@
             </div>
             <div class="half-white hero-overlay"></div>
             <div class="hero-solid-color">
-                <h2 id="index-quotes">This is for the quotes.</h2>
+                <br>
+                <br>
+                <h2 id="index-quotes">“I believe there is hope for us all, even amid the suffering – <br>
+                    and maybe even inside the suffering. And that’s why I write fiction, probably. <br>
+                    It’s my attempt to keep that fragile strand of radical hope, to build a fire in the darkness.”<br>
+                    John Green</h2>
             </div>
         </section>
 

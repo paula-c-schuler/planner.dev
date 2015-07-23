@@ -30,11 +30,14 @@
         <section class="my-hero">
             <div id="hero-message" class="hero-message">
                 <h1 id="author-name">Esther Hershenhorn</h1>
-                <h3 id="author-titles">Teacher, Author, Coach</h3>
+                <h2 id="author-titles">Teacher, Author, Coach</h2>
             </div>
             <div class="half-white hero-overlay"></div>
             <div class="hero-solid-color">
-                <h2 id="index-quotes">This is for the quotes.</h2>
+
+                <p id="index-quotes"><br>"Fairy tales are more than true;<br>
+                    not because they tell us that dragons exist,<br>
+                    but because they tell us that dragons can be beaten."<br>- G. K. Chesterton</p>
             </div>
         </section>
 

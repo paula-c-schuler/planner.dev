@@ -3,15 +3,9 @@
 // to appear with inspiring quotes in solid color section of hero
  
 $(document).ready(function(){
-	var scrolled = false;
-
-	if (window.scrollY == 200 && !scrolled) {
-
-	}
-
-
-	 
-
-
-
+	// $('author-name').fadeIn(1500);
+	// $('author-titles').fadeIn(1500);
+	$('.my-hero').mouseenter(function() {
+		$('#index-quotes').fadeIn(4000);
+	});
 });

@@ -34,7 +34,12 @@
             </div>
             <div class="half-white hero-overlay"></div>
             <div class="hero-solid-color">
-                <h2 id="index-quotes">This is for the quotes.</h2>
+                <br>
+                <br>
+                <h2 id="index-quotes">“Children’s books are harder to write. It’s tougher to keep a child interested because <br>
+                    a child doesn’t have the concentration of an adult. The child knows the television is in the next room.<br> 
+                    It’s tough to hold a child, but it’s a lovely thing to try to do.” <br>
+                    Roald Dahl</h2>
             </div>
         </section>
 
