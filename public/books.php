@@ -73,42 +73,7 @@
                 </div>
     			<br>
     			<br>
-<!-- nice on small screens up to 990, add class for large screens -->
-                <div class="pretty-divider col-md-12">
-                </div>
-            </div>
-			
-<!-- Friday Anthology -->
-            <div class="row book">
-                <img class="col-md-2 offset-one-fifth top-buffer " src="/img/book-poetry-friday.jpg">
-                
-                <div class="col-md-6">
-                    <h2><em>The Poetry Friday Anthology: Poems for the School Year with Connections to the Common Core</em>
-                    </h2>
-                    <p>
-                        Compiled by Sylvia Vardell and Janet Wong <br>
-                        Pomelo Books, 2012  <br>
-                        ISBN:  978-1-937057-68-8
-                    </p>
-                    <br>
-                    <p>
-                        The Poetry Friday Anthology offers a set of 36 poems for each grade level K-5,
-                        a poem-a-week for the 9 months of the typical school year! 
-                        <br>
-                        Poem-specific, skill-based, developmentally-appropriate activities that 
-                        connect to the Common Core standards for poetry instruction accompany each poem.
-                        A K-5 TEKS version (Texas Essential Knowledge and Skills) is also available.
-                        <br><br>
-                        I’m honored to be one of the 75 poets who contributed original poems to this anthology.
-                        <br><br>
-                        To learn more, visit <a href="http://poetryfridayanthology.blogspot.com/">The Poetry Friday Anthology blog</a>.
-                        
-                    </p>
-                    <a target="_blank" href="http://www.amazon.com/Poetry-Friday-Anthology-Common-Core/dp/1937057682/ref=sr_1_1?s=books&ie=UTF8&qid=1437063216&sr=1-1&keywords=9781937057688">Buy on Amazon</a>
-                </div>
-                <br>
-                <br>
-<!-- nice on small screens up to 990, add class for large screens -->
+                <!-- pretty divider -->
                 <div class="pretty-divider col-md-12">
                 </div>
             </div>
@@ -142,7 +107,7 @@
                 </div>
                 <br>
                 <br>
-<!-- nice on small screens up to 990, add class for large screens -->
+                <!-- pretty divider -->
                 <div class="pretty-divider col-md-12">
                 </div>
             </div>
@@ -180,7 +145,7 @@
                 </div>
                 <br>
                 <br>
-<!-- nice on small screens up to 990, add class for large screens -->
+                <!-- pretty divider -->
                 <div class="pretty-divider col-md-12">
                 </div>
             </div>
@@ -214,7 +179,7 @@
                 </div>
                 <br>
                 <br>
-<!-- nice on small screens up to 990, add class for large screens -->
+                <!-- pretty divider -->
                 <div class="pretty-divider col-md-12">
                 </div>
             </div>
@@ -250,7 +215,7 @@
                 </div>
                 <br>
                 <br>
-<!-- nice on small screens up to 990, add class for large screens -->
+                <!-- pretty divider -->
                 <div class="pretty-divider col-md-12">
                 </div>
             </div>
@@ -290,7 +255,7 @@
                 </div>
                 <br>
                 <br>
-                <!-- nice on small screens up to 990, add class for large screens -->
+                    <!-- pretty divider -->
                 <div class="pretty-divider col-md-12">
                 </div>
             </div>
@@ -328,13 +293,49 @@
                 </div>
                 <br>
                 <br>
-<!-- nice on small screens up to 990, add class for large screens -->
+                <!-- pretty divider -->
                 <div class="pretty-divider col-md-12">
                 </div>
             </div>
 
 
-<!-- TO BE USED FOR THE LOOP IF I GET IT DONE -->
+<!-- Friday Anthology -->
+            <div class="row book">
+                <img class="col-md-2 offset-one-fifth top-buffer " src="/img/book-poetry-friday.jpg">
+                
+                <div class="col-md-6">
+                    <h2><em>The Poetry Friday Anthology: Poems for the School Year with Connections to the Common Core</em>
+                    </h2>
+                    <p>
+                        Compiled by Sylvia Vardell and Janet Wong <br>
+                        Pomelo Books, 2012  <br>
+                        ISBN:  978-1-937057-68-8
+                    </p>
+                    <br>
+                    <p>
+                        The Poetry Friday Anthology offers a set of 36 poems for each grade level K-5,
+                        a poem-a-week for the 9 months of the typical school year! 
+                        <br>
+                        Poem-specific, skill-based, developmentally-appropriate activities that 
+                        connect to the Common Core standards for poetry instruction accompany each poem.
+                        A K-5 TEKS version (Texas Essential Knowledge and Skills) is also available.
+                        <br><br>
+                        I’m honored to be one of the 75 poets who contributed original poems to this anthology.
+                        <br><br>
+                        To learn more, visit <a href="http://poetryfridayanthology.blogspot.com/">The Poetry Friday Anthology blog</a>.
+                        
+                    </p>
+                    <a target="_blank" href="http://www.amazon.com/Poetry-Friday-Anthology-Common-Core/dp/1937057682/ref=sr_1_1?s=books&ie=UTF8&qid=1437063216&sr=1-1&keywords=9781937057688">Buy on Amazon</a>
+                </div>
+                <br>
+                <br>
+                <!-- pretty divider -->
+                <div class="pretty-divider col-md-12">
+                </div>
+            </div>
+
+            
+<!-- TO BE USED FOR THE LOOP IN LATER DEVELOPMENT USING JSON OR OTHER ARRAY -->
 
 <!--               <div class="book">
                 <img class="col-md-2 offset-one-fifth top-buffer " src="/img/book-poetry-friday.jpg">
@@ -368,9 +369,7 @@
 
          <!-- Contact Button -->
         <?php include 'contact-button.html'; ?>
-        
     </div>
-    
     <!-- Footer -->
     <?php include 'footer.php'; ?>
 

@@ -109,9 +109,7 @@ img {
 /*
  * Automates padding for paragraph text.
  */
-p {
-	max-width: 80%;
-}
+
 
 
 /*-------------------------------------*\
@@ -270,7 +268,6 @@ footer li {
 	background-image: url("/img/cc/textura-de-color-azul-jkbenites-flickr.jpg");
 }
 
-/* Hero main text box and text styling */
 .hero-message {
 	padding-top: 22rem;
 	text-align: center;
@@ -285,7 +282,9 @@ footer li {
 	display: none;
 }
 .hero-solid-color #index-quotes {
-	color: #84ADDF;
+	display: hidden;
+	color: white;
+	opacity: 0;
 }
 
 
@@ -302,7 +301,6 @@ footer li {
 	height: 38rem;
 	background-image: url("/img/cc/textura-de-color-azul-jkbenites-flickr.jpg");}
 
-/* Hero main text box and text styling */
 .hero-message {
 	padding-top: 22rem;
 	text-align: center;
@@ -320,7 +318,7 @@ footer li {
 	font-size: 3rem;
 }
 .hero-solid-color #index-quotes {
-	color: white;
+	opacity: 0;
 }
 }
 
@@ -338,7 +336,6 @@ footer li {
 	height: 44rem;
 	background-image: url("/img/cc/textura-de-color-azul-jkbenites-flickr.jpg");}
 
-/* Hero main text box and text styling */
 .hero-message {
 	padding-top: 15rem;
 	text-align: center;
@@ -364,11 +361,13 @@ footer li {
 	
 }
 .hero-solid-color #index-quotes {
+	display: hidden;
 	color: #84ADDF;
+	opacity: 0;
 }
 }
 
-/* MEDIUM SCREENS 
+/* MEDIUM SCREENS AND LARGER 
 /*===============================================================*/
 @media screen and (min-width:992px) {
 .my-hero {
@@ -381,54 +380,6 @@ footer li {
 	height: 58rem;
 	background-image: url("/img/cc/textura-de-color-azul-jkbenites-flickr.jpg");}
 
-/* Hero main text box and text styling */
-.hero-message {
-	padding-top: 10rem;
-	text-align: center;
-	color: #F1F1F2;
-	font-weight: bolder;
-	font-size: 3rem;
-}
-.hero-message #author-name {
-	text-align: center;
-}
-.hero-message #author-titles {
-	text-align: center;
-	/*margin-bottom: 4rem;*/
-}
-.hero-overlay {
-	width: 100%;
-	height: 10rem;
-}
-.hero-solid-color {
-	width: 100%;
-	height: 22rem;
-	background-color: #84ADDF;
-}
-.hero-solid-color #index-quotes {
-	display: none;
-	text-align: center;
-	color: #093266;
-	font-size: 2rem;
-	margin: 0 auto;
-}
-}
-
-
-/* Large devices (large desktops, 1200px and up) */
-/*==================================================================*/
-@media screen and (min-width:1200px) { 
-.my-hero {
-	display: hidden;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	width: 100%;
-	height: 58rem;
-	background-image: url("/img/cc/textura-de-color-azul-jkbenites-flickr.jpg");}
-
-/* Hero main text box and text styling */
 .hero-message {
 	padding-top: 10rem;
 	text-align: center;
@@ -458,8 +409,52 @@ footer li {
 	color: #093266;
 	font-size: 2rem;
 	margin: 0 auto;
+	opacity: 1;
 }
 }
+
+/*-------------------------------------*\
+	ABOUT PAGE "SHORT VERSION" SECTION
+\*-------------------------------------*/
+/* EXTRA SMALL SCREEN less than 501px */
+/*===========================================================*/
+/* Helps adjust profile photo on about page */
+
+.space-filler {
+	width: 20%;
+	color: white;
+}
+.profile-image {
+	margin-left: 2rem;
+}
+#linkedin-icon {
+	margin-left: 6rem;
+}
+
+#twitter-icon {
+	margin-left: 2rem;
+}
+
+.short-version-header {
+	font-size: 2.8rem;
+	padding-top: 2rem;
+	padding-bottom: 0;
+}
+
+/* Helps adjust placement of about page first section of story */
+.short-version-group {
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+.story-images {
+	margin-right: auto;
+	margin-left: auto;
+}
+.short-version-text {
+
+}
+
+
 
 
 /*-------------------------------------*\
@@ -470,15 +465,29 @@ footer li {
 .inline {
 	display: inline-block;
 }
-
-/* Helps with layout of three columns of text on home page */
-.summary {
-	padding-left: 3rem; 
+/*.summary-icon, .summary, .summary-more {
+	margin-left: auto;
+	margin-right: auto;
+}*/
+.summary-group {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.summary-group p {
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* Helps adjust profile photo on about page */
-.image-profile {
+.profile-image {
 	margin-right: 10px;
+}
+
+#phone-number {
+	text-align: center;
+	font-size: 3rem;
 }
 
 /* Helps adjust social media link position on about page */

@@ -34,7 +34,7 @@
             </div>
             <div class="half-white hero-overlay"></div>
             <div class="hero-solid-color">
-
+                <br>
                 <p id="index-quotes"><br>"Fairy tales are more than true;<br>
                     not because they tell us that dragons exist,<br>
                     but because they tell us that dragons can be beaten."<br>- G. K. Chesterton</p>
@@ -42,39 +42,39 @@
         </section>
 
         <!-- Begin Summaries -->
-        <div class="row ">
-            <div class="col-md-4 top-buffer-8">
-                <a class="offset-one-third" href="about.php"><i class="icon icon-5x icon-star"></i></a>
-                <h3 class="offset-one-third">About</h3>
+        <div class="summary-row row ">
+            <div class="summary-group col-md-4 top-buffer-8">
+                <a class="summary-icon" href="about.php"><i class="icon icon-5x icon-star"></i></a>
+                <h3 class="summary-header ">About</h3>
                 <p class="summary">
                     Lucky me! I spend my days doing what I love and loving what I do! I write 
                     picture books, board books, middle grade fiction. I teach adults writing for
                     children and coach writers of all ages to help them tell their stories. 
                 </p>
-                <a class="summary" href="about.php">More</a>
+                <a class="summary-more" href="about.php">More</a>
 
             </div>  
-            <div class="col-md-4 top-buffer-8">
-                <a class="offset-one-third" href=""><i class="icon icon-5x icon-book"></i></a>
-                <h3 class="offset-one-third">Books</h3>
+            <div class="summary-group col-md-4 top-buffer-8">
+                <a class="" href=""><i class="icon icon-5x icon-book"></i></a>
+                <h3 class="summary-header">Books</h3>
                 <p class="summary">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                     consequat.
                 </p>
-                <a class="summary" href="">More</a>
+                <a class="summary-more" href="">More</a>
             </div>
-            <div class="col-md-4 top-buffer-8">
-                <a class="offset-one-third" href="coaching.php"><i class="icon icon-5x icon-exchange"></i></a>
-                <h3 class="offset-one-fourth-plus">Coaching</h3>
+            <div class="summary-group col-md-4 top-buffer-8">
+                <a class="" href="coaching.php"><i class="icon icon-5x icon-exchange"></i></a>
+                <h3 class="summary-header">Coaching</h3>
                 <p class="summary">
                     Working with writers wherever they are in the writing and publishing process, I help them
                     discover, craft and market their stories. Coaching clients include authors who publish 
                     through traditional and independent channels. I conduct one-on-one sessions in person 
                     or on communications devices for manuscript feedback and immediate answers to questions. 
                 </p>
-                <a class="summary" href="coaching.php">More</a>
+                <a class="summary-more" href="coaching.php">More</a>
             </div>  
             </hr>  
         </div>

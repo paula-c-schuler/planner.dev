@@ -34,29 +34,23 @@
             <div class="hero-solid-color">
                 <br>
                 <br>
-                <h2 id="index-quotes">“I believe there is hope for us all, even amid the suffering – <br>
-                    and maybe even inside the suffering. And that’s why I write fiction, probably. <br>
-                    It’s my attempt to keep that fragile strand of radical hope, to build a fire in the darkness.”<br>
-                    John Green</h2>
+                <p id="index-quotes">"Storytelling reveals meaning without committing the error of defining it." <br>Hannah Arendt</p>
             </div>
         </section>
 
         <!-- Begin Short Version Section -->
-        <section class="row">
+        <section class="row top-buffer-4">
             
-            <img class="col-md-3 offset-one-sixth top-buffer-4" src="/img/EstherProfileSmall.jpg">
+            <img class="profile-image col-md-6 top-buffer-4" src="/img/EstherProfileSmall.jpg">
             
-            <div id="contact" class="col-md-6 contact-links">
-                <h2>210-854-1466 
-                	<!-- Below line looks strange, but I need the five empty spaces for display between elements -->
-                	<span>      <a href="https://www.facebook.com/esther.hershenhorn.5/about"><i class="icon icon-facebook-official"></i></a>      
-                				<a href="https://twitter.com/EHershenhorn"><i class="icon icon-twitter"></i></a>
-                	</span>
-                </h2>
-            </div>
-              	<div class="col-md-6">
-	                <h3>The Short Version</h3>
-	                <br>
+            <div id="contact" class="short-version-group">
+                <div>
+                    <a id="linkedin-icon" href="https://www.linkedin.com/pub/esther-hershenhorn/17/357/91a"><i class="contact-links icon icon-3x icon-linkedin-square"></i></a>
+                    <a href="https://www.facebook.com/esther.hershenhorn.5/about"><i class="contact-links icon icon-3x icon-facebook-official"></i></a>  
+                	<a id="twitter-icon" href="https://twitter.com/EHershenhorn"><i class="contact-links icon icon-3x icon-twitter"></i></a>
+                </div>
+              	<div class="short-version-group">
+	                <p class="short-version-header">The Short Version</p>
 	                <p>
 	                	I spend my days doing what I love and loving what I do! 
 	                	I write picture books, board books, middle grade fiction and teach adults writing for
@@ -67,7 +61,7 @@
 	                    University of Pennsylvania and soon therafter began teaching fifth grade in Chicago.
 	                </p>
 	                <p>
-	                	Eventually, my son was born. He reminded me of how much I loved children's stories.
+	                	Eventually, I delivered a beautiful baby boy. He reminded me of how much I loved children's stories.
 	                </p>
 	                <p>
 	                	This launched my writing journey. Writing became publishing. 
@@ -79,19 +73,18 @@
             </div>
 			<br>
 			<br>
-			<!-- This soft line isnot displaying, check it out -->
-            </hr>
         </section>
 
-        <!-- Divider -->
+        <!-- pretty divider -->
         <div class="row pretty-divider col-md-12">
         </div>
 
         <!-- Begin More of the Story Section  -->
         <section class="row">
-            <img class="col-md-4 offset-one-twelfth image-girl" src="/img/esther-girl-sepia-smaller.jpg">
             
-            <div class="col-md-6">
+            <img class="story-images col-md-6 image-girl" src="/img/esther-girl-sepia.jpg">
+            
+            <div class="long-version-text col-md-6">
             	<br>
             	<h3>More of The Story</h3>
                 <p>
@@ -114,9 +107,10 @@
         </section>
 
         <section class="row row-top-buffer">
-			<img class="col-md-4 offset-one-twelfth " src="img/Penn-Wynn-sepia.jpg">
             
-            <div class="col-md-6">
+			<img class="story-images col-md-6" src="img/Penn-Wynn-sepia.jpg">
+            
+            <div class="long-version-text col-md-6">
                 <p>
                 	The Penn Wynne Library was but a stone's throw away from my new suburban home in 1955. 
                 </p>
@@ -137,11 +131,10 @@
             </div>
         </section>
         <section class="row row-top-buffer">
-            <div>
-            	<!-- Image of Univ of Pennsylvania -->
-            	<img class="col-md-4 offset-one-twelfth " src="img/Penn-Wynn-sepia.jpg">
-            </div>
-            <div class="col-md-6">
+           
+            <img class="story-images col-md-6" src="img/Penn-Wynn-sepia.jpg">
+            
+            <div class="long-version-text col-md-6">
                 <p>
                 	I earned a degree in Elementary Education from the University of Pennsylvania, minoring in Journalism, 
                 	and soon after began teaching fifth grade in Chicago.  
