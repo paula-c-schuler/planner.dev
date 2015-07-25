@@ -134,7 +134,7 @@ img {
 	width: 100%;
 	margin: 0 auto;
 }
-footer li {
+footer {
 	padding-top: 1.5rem;
 }
 
@@ -795,6 +795,11 @@ footer li {
 
 }
 
+#by-line-paula {
+	color: #799F49;
+}
+
+
 /*------------------------------------*\
 	LINKS - NOT FINISHED
 \*------------------------------------*/
@@ -822,8 +827,13 @@ nav a, footer a {
 	text-align: center;
 }
 
-a:hover .button-contact {
-	opacity: .5;
-	color: grey;
+#codeup-button {
+	width: 140px;
+	background-color: #799F49;
 }
+
+#footer-github-icon {
+	margin-left: 2rem;
+}
+
 

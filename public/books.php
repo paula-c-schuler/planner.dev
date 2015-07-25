@@ -28,7 +28,7 @@
         <section class="my-hero">
             <div class="hero-message">
                 <h1 id="author-name">Esther Hershenhorn</h1>
-                <h3 id="author-titles">Author</h3>
+                <h3 id="author-titles">Published Books</h3>
             </div>
             <div class="half-white hero-overlay"></div>
             <div class="hero-solid-color">

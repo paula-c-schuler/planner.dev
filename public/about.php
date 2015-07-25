@@ -83,7 +83,7 @@
            <h3 class="long-version-header">More of The Story</h3>
         </section>
 
-        <!-- images and text -->
+        <!-- images and copy -->
         <section class="row">
             <div class="long-version-group"></div>
             <img class="story-images col-md-6 image-girl" src="/img/esther-girl-sepia.jpg">
