@@ -25,6 +25,7 @@ body {
 }
 
 nav, footer {
+
 	background-color: #000;
 	color: white;
 }
@@ -66,7 +67,7 @@ nav, footer {
  *    without disabling user zoom.
  */
 html {
-  font-family: Helvetica, Roboto, Arial, sans-serif;
+  font-family: Helvetica, Roboto, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; 
 }
