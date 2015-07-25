@@ -106,11 +106,6 @@ img {
   height: auto; 
 }
 
-/*
- * Automates padding for paragraph text.
- */
-
-
 
 /*-------------------------------------*\
 	NAVIGATION BAR
@@ -139,16 +134,11 @@ img {
 	width: 100%;
 	margin: 0 auto;
 }
-
-/*
- * Adds a little space at the top of the footer
- */
 footer li {
 	padding-top: 1.5rem;
 }
 
-/* TODO: SMALL SCREEN*/
-/* Medium devices (desktops, 600px and up) */
+/* NAV - SMALL SCREEN*/
 /*=================================================*/
 @media screen and (min-width:640px) {
 	/*
@@ -173,17 +163,13 @@ footer li {
 		font-weight: bold;
 		width: 30rem;
 	}
-
-	/*
-	 * Adds a little space at the top of the footer
-	 */
 	footer li {
 		padding-top: 1.5rem;
 	}
 }
 
 
-/* TODO: MEDIUM SCREEN*/
+/* NAV - MEDIUM SCREEN*/
 /*=================================================*/
 @media screen and (min-width:940px) {
 	/*
@@ -208,16 +194,12 @@ footer li {
 		font-weight: bold;
 		width: 20rem;
 	}
-
-	/*
-	 * Adds a little space at the top of the footer
-	 */
 	footer li {
 		padding-top: 1.5rem;
 	}
 }
 
-/* LARGE SCREENS */
+/* NAV - LARGE SCREENS */
 /*===========================================*/
 @media screen and (min-width:1200px) { 
 /*
@@ -242,10 +224,6 @@ footer li {
 	font-weight: bold;
 	width: 20rem;
 }
-
-/*
- * Adds a little space at the top of the footer
- */
 footer li {
 	padding-top: 1.5rem;
 }
@@ -288,7 +266,7 @@ footer li {
 }
 
 
-/* SMALL SCREEN */
+/* HERO - SMALL SCREEN */
 /*============================================================*/
 @media screen and (min-width:501px) {
 .my-hero {
@@ -323,7 +301,7 @@ footer li {
 }
 
 
-/* SMALL-TO-MEDIUM SCREEN */
+/* HERO - SMALL-TO-MEDIUM SCREEN */
 /*============================================================*/
 @media screen and (min-width:640px) {
 .my-hero {
@@ -367,7 +345,7 @@ footer li {
 }
 }
 
-/* MEDIUM SCREENS AND LARGER 
+/* HERO - MEDIUM SCREENS AND LARGER 
 /*===============================================================*/
 @media screen and (min-width:992px) {
 .my-hero {
@@ -414,49 +392,349 @@ footer li {
 }
 
 /*-------------------------------------*\
+	HOME AND COACHING PAGES
+\*-------------------------------------*/
+/* EXTRA SMALL SCREEN less than 501px */
+/*===========================================================*/
+@media screen and (min-width:501px) {
+
+.summary-group {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.summary-group p {
+	width: 75%;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+.summary-icon, .summary, .summary-more {
+	margin-left: auto;
+	margin-right: auto;
+}
+}
+/* HOME/COACHNG - SMALL-TO-MEDIUM SCREENS AND LARGER 
+/*===============================================================*/
+@media screen and (min-width:640px) {
+.summary-group {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.summary-group p {
+	width: 60%;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+.summary-icon, .summary, .summary-more {
+	margin-left: auto;
+	margin-right: auto;
+}
+}
+/* HOME/COACHING - MEDIUM SCREENS AND LARGER 
+/*===============================================================*/
+@media screen and (min-width:992px) {
+.summary-group {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.summary-group p {
+	width: 95%;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+.summary-icon, .summary, .summary-more {
+	margin-left: auto;
+	margin-right: auto;
+}
+}
+
+
+
+/*-------------------------------------*\
 	ABOUT PAGE "SHORT VERSION" SECTION
 \*-------------------------------------*/
 /* EXTRA SMALL SCREEN less than 501px */
 /*===========================================================*/
 /* Helps adjust profile photo on about page */
 
-.space-filler {
-	width: 20%;
-	color: white;
-}
 .profile-image {
-	margin-left: 2rem;
-}
-#linkedin-icon {
-	margin-left: 6rem;
-}
-
-#twitter-icon {
-	margin-left: 2rem;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	/*margin-left: 5rem;*/
 }
 
-.short-version-header {
-	font-size: 2.8rem;
-	padding-top: 2rem;
-	padding-bottom: 0;
-}
 
 /* Helps adjust placement of about page first section of story */
 .short-version-group {
-	margin-left: 2rem;
-	margin-right: 2rem;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+.short-version-header {
+	font-size: 3rem;
+	padding-top: 4rem;
+	padding-bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+.short-version-text {
+	font-size: 2rem;
+}
+#linkedin-icon {
+	display: block;
+	margin-top: 4rem;
+	margin-right: auto;
+	margin-bottom: 2rem;
+	margin-left: 16rem;
+	font-size: 3rem;
+}
+#twitter-icon {
+	display: block;
+	margin-top: 4rem;
+	margin-right: auto;
+	margin-bottom: 2rem;
+	margin-left: 15rem;
+	font-size: 3rem; 
+}
+#facebook-icon {
+	display: block;
+	margin-top: 4rem;
+	margin-right: auto;
+	margin-left: 15rem;
+	font-size: 3rem;
+}
+
+.pretty-divider-under-social-icons {
+	margin-top: 0;
+	background-color: grey;
+	height: .1rem;
+}
+
+/* Begins next section of story */
+.long-version-group {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.long-version-header {
+	text-align: center;
 }
 .story-images {
 	margin-right: auto;
 	margin-left: auto;
 }
-.short-version-text {
+.long-version-text p {
+	width: 95%;
+}
 
+/* ABOUT - SMALL-TO-MEDIUM SCREENS AND LARGER 
+/*===============================================================*/
+@media screen and (min-width:501px) {
+
+.profile-image {
+	margin-left: 10rem;
+}
+
+
+/* Helps adjust placement of about page first section of story */
+.short-version-group {
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+.short-version-header {
+	font-size: 2.8rem;
+	padding-top: 2rem;
+	padding-bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+.short-version-text {
+	font-size: 2rem;
+}
+#linkedin-icon {
+	display: inline;
+	margin-top: 4rem;
+	margin-right: auto;
+	margin-left: 6rem;
+	font-size: 3rem;
+}
+#twitter-icon {
+	display: inline;
+	margin-top: 4rem;
+	margin-right: auto;
+	margin-left: 5rem;
+	font-size: 3rem; 
+}
+#facebook-icon {
+	display: inline;
+	margin-top: 4rem;
+	margin-right: auto;
+	margin-left: 5rem;
+	font-size: 3rem;
+}
+.pretty-divider-under-social-icons {
+	margin-top: 4rem;
+	background-color: grey;
+	height: .1rem;
+}
+.long-version-header {
+	text-align: center;
+}
+.story-images {
+	margin-right: auto;
+	margin-left: auto;
+}
+.long-version-text p {
+	width: 75%;
+}
+}
+
+/* ABOUT - MEDIUM SCREENS AND LARGER 
+/*===============================================================*/
+@media screen and (min-width:640px) {
+
+.profile-image {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/* Helps adjust placement of about page first section of story */
+.short-version-group {
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	width: 75%;
+}
+.short-version-header {
+	font-size: 2.8rem;
+	padding-top: 2rem;
+	padding-bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+.short-version-text {
+	font-size: 1.5rem;
+}
+#linkedin-icon {
+	display: inline;
+	margin-top: 6rem;
+	margin-right: auto;
+	margin-left: 6rem;
+	font-size: 2rem;
+}
+#twitter-icon {
+	display: inline;
+	margin-top: 6rem;
+	margin-right: auto;
+	margin-left: 5rem;
+	font-size: 2rem; 
+}
+#facebook-icon {
+	display: inline;
+	margin-top: 6rem;
+	margin-right: auto;
+	margin-left: 5rem;
+	font-size: 2rem;
+}
+.pretty-divider-under-social-icons {
+	margin-top: 4rem;
+	background-color: grey;
+	height: .2rem;
+}
+.long-version-header {
+	text-align: center;
+}
+.story-images {
+	margin-right: auto;
+	margin-left: auto;
+}
+.long-version-text p {
+	width: 60%;
+}
+}
+
+
+/* ABOUT - LARGER SCREENS 
+/*===============================================================*/
+@media screen and (min-width:992px) {
+
+.profile-image {
+	display: inline;
+	float: left;
+	margin-right: 10rem;
+	margin-left: 10rem;
+}
+
+
+/* Helps adjust placement of about page first section of story */
+.short-version-group {
+	margin-right: auto;
+	margin-left: 2rem;
+	margin-top: 3rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	width: 90%;
+}
+.short-version-header {
+	font-size: 2.8rem;
+	padding-top: 2rem;
+	padding-bottom: 0;
+	width: 100%;
+	text-align: left;
+}
+.short-version-text {
+	font-size: 1.5rem;
+}
+#linkedin-icon {
+	display: inline;
+	margin-left: 0rem;
+	font-size: 1.5rem;
+}
+#twitter-icon {
+	display: inline;
+	margin-right: auto;
+	margin-left: 2.5rem;
+	font-size: 1.5rem; 
+}
+#facebook-icon {
+	display: inline;
+	padding-left: 0;
+	margin-left: 2.5rem;
+	font-size: 1.5rem;
+}
+.pretty-divider-under-social-icons {
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+	background-color: grey;
+	height: .2rem;
+}
+.long-version-header {
+	text-align: center;
+}
+.story-images {
+	margin-right: auto;
+	margin-left: auto;
+}
+.long-version-text p {
+	width: 90%;
+}
 }
 
 
 
-
+/*=============================================================*/
 /*-------------------------------------*\
 	HELPERS
 \*-------------------------------------*/
@@ -469,7 +747,7 @@ footer li {
 	margin-left: auto;
 	margin-right: auto;
 }*/
-.summary-group {
+/*.summary-group {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -478,27 +756,13 @@ footer li {
 	text-align: left;
 	margin-left: auto;
 	margin-right: auto;
-}
+}*/
 
-/* Helps adjust profile photo on about page */
-.profile-image {
-	margin-right: 10px;
-}
-
-#phone-number {
-	text-align: center;
-	font-size: 3rem;
-}
-
-/* Helps adjust social media link position on about page */
-.contact-links {
-	margin-top: 5rem;
-}
-
-/* Helps adjust placement of about page first section of story */
-.short-version {
-	margin-right: 10px;
-	margin-left: 5px;
+.pretty-divider {
+	margin-bottom: 4rem;
+	margin-top: 4rem;
+	background-color: grey;
+	height: .1rem;
 }
 
 /* Creates top margins */
@@ -519,25 +783,9 @@ footer li {
 	padding-top: 4rem;
 }
 
-/* Helps position social media Fonticon icons */
-.icon-facebook-official {
-	margin-left: 5rem;
-}
-.icon-twitter {
-	margin-left: 3rem;
-}
-
 /* Helps position image on about page */
 .image-girl {
 	margin-top: 30px;
-}
-
-/* Thin grey line creates visual separation */
-.pretty-divider {
-	margin-top: 4rem;
-	margin-bottom: 4rem;
-	background-color: grey;
-	height: .1rem;
 }
 
 /* Style for quotes from author books on book page */

@@ -41,34 +41,32 @@
         <!-- Begin Short Version Section -->
         <section class="row top-buffer-4">
             
-            <img class="profile-image col-md-6 top-buffer-4" src="/img/EstherProfileSmall.jpg">
-            
-            <div id="contact" class="short-version-group">
-                <div>
-                    <a id="linkedin-icon" href="https://www.linkedin.com/pub/esther-hershenhorn/17/357/91a"><i class="contact-links icon icon-3x icon-linkedin-square"></i></a>
-                    <a href="https://www.facebook.com/esther.hershenhorn.5/about"><i class="contact-links icon icon-3x icon-facebook-official"></i></a>  
-                	<a id="twitter-icon" href="https://twitter.com/EHershenhorn"><i class="contact-links icon icon-3x icon-twitter"></i></a>
-                </div>
+            <img class="profile-image top-buffer-4" src="/img/EstherProfileSmall.jpg">
+           
+            <div id="contact" class="short-version-group"> 
               	<div class="short-version-group">
 	                <p class="short-version-header">The Short Version</p>
-	                <p>
+	                <p class="short-version-text">
 	                	I spend my days doing what I love and loving what I do! 
 	                	I write picture books, board books, middle grade fiction and teach adults writing for
 	                    children and coach writers of all ages to help them tell their stories. 
 	                </p>
-	                <p>
+	                <p class="short-version-text">
 	                	I earned a degree in elementary education with a minor in journalism from the 
 	                    University of Pennsylvania and soon therafter began teaching fifth grade in Chicago.
 	                </p>
-	                <p>
+	                <p class="short-version-text">
 	                	Eventually, I delivered a beautiful baby boy. He reminded me of how much I loved children's stories.
 	                </p>
-	                <p>
+	                <p class="short-version-text">
 	                	This launched my writing journey. Writing became publishing. 
 	                </p>
-	                <p>
+	                <p class="short-version-text">
 	                	Publishing opened the door for teaching adults, and I never looked back. 
 	                </p>
+                    <a id="linkedin-icon" href="https://www.linkedin.com/pub/esther-hershenhorn/17/357/91a"><i class="contact-links icon icon-3x icon-linkedin-square"></i></a>
+                <a id="twitter-icon" href="https://twitter.com/EHershenhorn"><i class="contact-links icon icon-3x icon-twitter"></i></a>
+                <a id="facebook-icon" href="https://www.facebook.com/esther.hershenhorn.5/about"><i class="contact-links icon icon-3x icon-facebook-official"></i></a>  
                 </div>
             </div>
 			<br>
@@ -76,17 +74,24 @@
         </section>
 
         <!-- pretty divider -->
-        <div class="row pretty-divider col-md-12">
+        <div class="row pretty-divider-under-social-icons">
         </div>
 
         <!-- Begin More of the Story Section  -->
+        <!-- header -->
         <section class="row">
-            
+           <h3 class="long-version-header">More of The Story</h3>
+        </section>
+
+        <!-- images and text -->
+        <section class="row">
+            <div class="long-version-group"></div>
             <img class="story-images col-md-6 image-girl" src="/img/esther-girl-sepia.jpg">
             
             <div class="long-version-text col-md-6">
             	<br>
-            	<h3>More of The Story</h3>
+            	<br>
+                <br>
                 <p>
                 	I grew up in Philadelphia, Pennsylvania. (I'm the bonneted, kneeling first grade girl,  
                 	at Overbrook Elementary School's May Day celebration.) 
@@ -111,6 +116,8 @@
 			<img class="story-images col-md-6" src="img/Penn-Wynn-sepia.jpg">
             
             <div class="long-version-text col-md-6">
+                <br>
+                <br>
                 <p>
                 	The Penn Wynne Library was but a stone's throw away from my new suburban home in 1955. 
                 </p>
@@ -135,6 +142,8 @@
             <img class="story-images col-md-6" src="img/Penn-Wynn-sepia.jpg">
             
             <div class="long-version-text col-md-6">
+                <br>
+                <br>
                 <p>
                 	I earned a degree in Elementary Education from the University of Pennsylvania, minoring in Journalism, 
                 	and soon after began teaching fifth grade in Chicago.  
@@ -157,7 +166,7 @@
         </section>
 
         <!-- Divider -->
-        <div class="row pretty-divider col-md-12">
+        <div class="row pretty-divider">
         </div>
 
          <!-- Contact Button -->

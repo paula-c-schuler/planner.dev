@@ -55,7 +55,7 @@
 
             </div>  
             <div class="summary-group col-md-4 top-buffer-8">
-                <a class="" href=""><i class="icon icon-5x icon-book"></i></a>
+                <a class="" href="books.php"><i class="icon icon-5x icon-book"></i></a>
                 <h3 class="summary-header">Books</h3>
                 <p class="summary">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -63,7 +63,7 @@
                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                     consequat.
                 </p>
-                <a class="summary-more" href="">More</a>
+                <a class="summary-more" href="books.php">More</a>
             </div>
             <div class="summary-group col-md-4 top-buffer-8">
                 <a class="" href="coaching.php"><i class="icon icon-5x icon-exchange"></i></a>
