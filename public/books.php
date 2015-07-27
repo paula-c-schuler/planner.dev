@@ -66,10 +66,8 @@
                         "Txting Mama Txting Baby" playfully brings this newest of worlds to the 
                         sturdy pages of the ultimate hand-held device: the baby board book! 
                     </p>
-                    <div class="bottom-buffer-4">
-        <a  id="codeup-button" href="http://codeup.com/" target="_blank" class="btn btn-lg button-contact my-button" role="button">Codeup<br>Alumni 2015 </a>
-    </div>
-                    <a target="_blank" href="http://www.amazon.com/Txtng-Mama-Baby-Esther-Hershenhorn/dp/1585368873/ref=sr_1_3?s=books&ie=UTF8&qid=1437060651&sr=1-3&keywords=esther+hershenhorn">Buy on Amazon</a>
+                    
+                    <a  id="codeup-button" href="http://www.amazon.com/Txtng-Mama-Baby-Esther-Hershenhorn/dp/1585368873/ref=sr_1_3?s=books&ie=UTF8&qid=1437060651&sr=1-3&keywords=esther+hershenhorn" target="_blank" class="top-buffer-4 left-aligned btn btn-lg button-contact my-button" role="button">Buy<br>on Amazon</a>
                 </div>
 
 
@@ -106,7 +104,7 @@
                         "Little Illinois" is part of the Little State series from Sleeping Bear Press.
                         
                     </p>
-                    <a target="_blank" href="http://www.amazon.com/Little-Illinois-State-Esther-Hershenhorn/dp/1585365378/ref=sr_1_1?s=books&ie=UTF8&qid=1437063284&sr=1-1&keywords=little+illinois">Link to Amazon</a>
+                    <a  id="codeup-button" href="http://www.amazon.com/Little-Illinois-State-Esther-Hershenhorn/dp/1585365378/ref=sr_1_1?s=books&ie=UTF8&qid=1437063284&sr=1-1&keywords=little+illinois" target="_blank" class="top-buffer-4 left-aligned btn btn-lg button-contact my-button" role="button">Buy<br>on Amazon</a>
                 </div>
                 <br>
                 <br>
@@ -146,7 +144,7 @@
                         <br><br>
                         I confess. "S is for Story: A Writer’s Alphabet" is the book I wish I’d owned as a little girl, 
                     </p>
-                    <a target="_blank" href="http://www.amazon.com/Story-Writers-Alphabet-Books-Sleeping/dp/1585364398/ref=sr_1_1?ie=UTF8&qid=1437063475&sr=8-1&keywords=s+is+for+story">Buy on Amazon</a>
+                    <a  id="codeup-button" href="http://www.amazon.com/Story-Writers-Alphabet-Books-Sleeping/dp/1585364398/ref=sr_1_1?ie=UTF8&qid=1437063475&sr=8-1&keywords=s+is+for+story" target="_blank" class="top-buffer-4 left-aligned btn btn-lg button-contact my-button" role="button">Buy<br>on Amazon</a>
                 </div>
                 <br>
                 <br>
@@ -180,7 +178,7 @@
                         "The Confe$$ion$ and $ecret$ of Howard J. Fingerhut" offers that and so much more: 
                         Humor, heart and a resilient spirit.
                     </p>
-                    <a target="_blank" href="http://www.amazon.com/Confe-ion-ecret-Howard-Fingerhut/dp/0823416429/ref=sr_1_3?ie=UTF8&qid=1437064143&sr=8-3&keywords=esther+hershenhorn">Buy on  Amazon</a>
+                    <a  id="codeup-button" href="http://www.amazon.com/Confe-ion-ecret-Howard-Fingerhut/dp/0823416429/ref=sr_1_3?ie=UTF8&qid=1437064143&sr=8-3&keywords=esther+hershenhorn" target="_blank" class="top-buffer-4 left-aligned btn btn-lg button-contact my-button" role="button">Buy<br>on Amazon</a>
                 </div>
                 <br>
                 <br>
@@ -255,7 +253,7 @@
                         Spring turned to summer, summer turned to fall, and still Pip's paintings went unsold.  His young heart broke for his faraway sisters.
                         Little did Pip know that his faraway sisters had plans of their own, thanks to Pip and his portraits.
                     </p>
-                    <a target="_blank" href="http://www.amazon.com/Fancy-That-Esther-Hershenhorn/dp/0823416054/ref=sr_1_1?ie=UTF8&qid=1437065224&sr=8-1&keywords=fancy+that+esther+hershenhorn">Buy on Amazon</a>
+                    <a  id="codeup-button" href="http://www.amazon.com/Fancy-That-Esther-Hershenhorn/dp/0823416054/ref=sr_1_1?ie=UTF8&qid=1437065224&sr=8-1&keywords=fancy+that+esther+hershenhorn" target="_blank" class="top-buffer-4 left-aligned btn btn-lg button-contact my-button" role="button">Buy<br>on Amazon</a>
                 </div>
                 </div>
                 <br>
@@ -294,7 +292,7 @@
                     <p>
                         No siree. They'd do what they had to.
                     </p>
-                    <a target="_blank" href="http://www.amazon.com/There-Lowells-Party-Ester-Hershenhorn/dp/0823413136/ref=sr_1_1?ie=UTF8&qid=1437066257&sr=8-1&keywords=0823413136">Buy on Amazon</a>
+                    <a  id="codeup-button" href="http://www.amazon.com/There-Lowells-Party-Ester-Hershenhorn/dp/0823413136/ref=sr_1_1?ie=UTF8&qid=1437066257&sr=8-1&keywords=0823413136" target="_blank" class="top-buffer-4 left-aligned btn btn-lg button-contact my-button" role="button">Buy<br>on Amazon</a>
                 </div>
                 <br>
                 <br>
@@ -330,7 +328,7 @@
                         To learn more, visit <a href="http://poetryfridayanthology.blogspot.com/">The Poetry Friday Anthology blog</a>.
                         
                     </p>
-                    <a target="_blank" href="http://www.amazon.com/Poetry-Friday-Anthology-Common-Core/dp/1937057682/ref=sr_1_1?s=books&ie=UTF8&qid=1437063216&sr=1-1&keywords=9781937057688">Buy on Amazon</a>
+                    <a  id="codeup-button" href="http://www.amazon.com/Poetry-Friday-Anthology-Common-Core/dp/1937057682/ref=sr_1_1?s=books&ie=UTF8&qid=1437063216&sr=1-1&keywords=9781937057688" target="_blank" class="top-buffer-4 left-aligned btn btn-lg button-contact my-button" role="button">Buy<br>on Amazon</a>
                 </div>
                 <br>
                 <br>

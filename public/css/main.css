@@ -830,6 +830,10 @@ footer li {
 	color: #799F49;
 }
 
+.left-aligned {
+	margin-left: 5rem;
+}
+
 
 /*------------------------------------*\
 	LINKS - NOT FINISHED
@@ -859,9 +863,9 @@ nav a, footer a {
 }
 
 #button-books {
-	width: 140px;
 	background-color: #799F49;
 	text-align: left;
+	font-size: 1.5 rem !important;
 }
 
 #codeup-button {
