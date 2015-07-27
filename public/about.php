@@ -64,9 +64,9 @@
 	                <p class="short-version-text">
 	                	Publishing opened the door for teaching adults, and I never looked back. 
 	                </p>
-                    <a id="linkedin-icon" href="https://www.linkedin.com/pub/esther-hershenhorn/17/357/91a"><i class="contact-links icon icon-3x icon-linkedin-square"></i></a>
-                <a id="twitter-icon" href="https://twitter.com/EHershenhorn"><i class="contact-links icon icon-3x icon-twitter"></i></a>
-                <a id="facebook-icon" href="https://www.facebook.com/esther.hershenhorn.5/about"><i class="contact-links icon icon-3x icon-facebook-official"></i></a>  
+                    <a id="linkedin-icon" href="https://www.linkedin.com/pub/esther-hershenhorn/17/357/91a" target="_blank"><i class="contact-links icon icon-3x icon-linkedin-square"></i></a>
+                <a id="twitter-icon" href="https://twitter.com/EHershenhorn" target="_blank"><i class="contact-links icon icon-3x icon-twitter"></i></a>
+                <a id="facebook-icon" href="https://www.facebook.com/esther.hershenhorn.5/about" target="_blank"><i class="contact-links icon icon-3x icon-facebook-official"></i></a>  
                 </div>
             </div>
 			<br>

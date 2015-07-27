@@ -30,7 +30,7 @@
         <section class="my-hero">
             <div id="hero-message" class="hero-message">
                 <h1 id="author-name">Esther Hershenhorn</h1>
-                <h2 id="author-titles">Teacher, Author, Coach</h2>
+                <h2 id="author-titles">Award-winning Author and Coach</h2>
             </div>
             <div class="half-white hero-overlay"></div>
             <div class="hero-solid-color">
@@ -67,6 +67,7 @@
             </div>
             <div class="summary-group col-md-4 top-buffer-8">
                 <a class="" href="coaching.php"><i class="icon icon-5x icon-exchange"></i></a>
+                <!-- <a  id="contact-button" target="_blank" href="http://codeup.com/" class="btn btn-lg button-contact my-button" role="button">About</a> -->
                 <h3 class="summary-header">Coaching</h3>
                 <p class="summary">
                     Working with writers wherever they are in the writing and publishing process, I help them

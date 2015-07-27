@@ -46,7 +46,7 @@ this pulls out the margin soo they don't touch side by side
 /* COLUMNS */
 
 .col-1-1, .column {
-    /*float: left;*/
+    float: left;
     padding: 10px;
     width: 100%;
 }
