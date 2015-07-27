@@ -763,6 +763,8 @@ footer li {
 /* WANT TODO:  Add reviews, link to Amazon for more reviews */
 
 
+
+
 /*=============================================================*/
 /*-------------------------------------*\
 	HELPERS
@@ -857,8 +859,9 @@ nav a, footer a {
 }
 
 #button-books {
-	width: 150px;
-	background-color: #799F49; 
+	width: 140px;
+	background-color: #799F49;
+	text-align: left;
 }
 
 #codeup-button {

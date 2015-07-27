@@ -66,7 +66,9 @@
                         "Txting Mama Txting Baby" playfully brings this newest of worlds to the 
                         sturdy pages of the ultimate hand-held device: the baby board book! 
                     </p>
-                    <a href="http://codeup.com/" target="_blank" class="button-books btn btn-lg button-contact my-button" role="button">Buy on Amazon</a>
+                    <div class="bottom-buffer-4">
+        <a  id="codeup-button" href="http://codeup.com/" target="_blank" class="btn btn-lg button-contact my-button" role="button">Codeup<br>Alumni 2015 </a>
+    </div>
                     <a target="_blank" href="http://www.amazon.com/Txtng-Mama-Baby-Esther-Hershenhorn/dp/1585368873/ref=sr_1_3?s=books&ie=UTF8&qid=1437060651&sr=1-3&keywords=esther+hershenhorn">Buy on Amazon</a>
                 </div>
 
