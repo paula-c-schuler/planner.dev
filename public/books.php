@@ -66,6 +66,7 @@
                         "Txting Mama Txting Baby" playfully brings this newest of worlds to the 
                         sturdy pages of the ultimate hand-held device: the baby board book! 
                     </p>
+                    <a href="http://codeup.com/" target="_blank" class="button-books btn btn-lg button-contact my-button" role="button">Buy on Amazon</a>
                     <a target="_blank" href="http://www.amazon.com/Txtng-Mama-Baby-Esther-Hershenhorn/dp/1585368873/ref=sr_1_3?s=books&ie=UTF8&qid=1437060651&sr=1-3&keywords=esther+hershenhorn">Buy on Amazon</a>
                 </div>
 
@@ -126,6 +127,8 @@
                         ISBN: 978-58536-439-8
                     </p>
                     <br>
+                    <p>Named 2011 Annual Teachers’ Choice Awards for Children’s Books Winner, by Learning Magazine.
+                    </p>
                     <p>
                         A true celebration of the Reader-Writer Connection, "S is for Story: A Writer’s Alphabet"
                         offers readers an A-to-Z journey through a writer’s life and process. 
