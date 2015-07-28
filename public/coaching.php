@@ -46,7 +46,9 @@
         <!-- Begin Summaries -->
         <div class="summary-row row">
             <div class="summary-group col-md-4 top-buffer-8">
-                <a class="summary-icon" href="about.php"><i class="icon icon-5x icon-exchange"></i></a>
+               
+                    <i class="icon-without-link summary-icon icon icon-5x icon-exchange"></i>
+                
                 <h3 class="summary-header">The Experience</h3>
                 <p class="summary">
                     Working with writers wherever they are in the writing and publishing process, I help them
@@ -66,7 +68,7 @@
             </div>  
 
             <div class="summary-group col-md-4 top-buffer-8">
-                <a class="summary-icon" href=""><i class="icon icon-5x icon-usd"></i></a>
+                <i class="icon-without-link icon icon-5x icon-usd"></i>
                 <h3 class="summary-header">Fees and Hours</h3>
                 <p class="summary">
                     Rates reflect the hours necessary to thoughtfully read and 
@@ -84,7 +86,7 @@
             </div>
 
             <div class="summary-group col-md-4 top-buffer-8">
-                <a class="summary-icon" href=""><i class="icon icon-5x icon-book"></i></a>
+                <i class="icon-without-link icon icon-5x icon-book"></i>
                 <h3 class="summary-header">Manuscript</h3>
                 <p class="summary">
                     All manuscripts are to be submitted as hard copy, typed, single-sided and 
