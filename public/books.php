@@ -213,7 +213,7 @@
                     <p>
                         Rudie stirs in such nice (and sweet) stories.  How could they not save the Chicken Soup Queen?
                     </p>
-                    <a target="_blank" href="http://www.amazon.com/Chicken-Soup-Heart-Esther-Hershenhorn/dp/1442421975/ref=sr_1_1?ie=UTF8&qid=1437064758&sr=8-1&keywords=chicken+soup+by+heart">Buy on Amazon</a>
+                    <a  id="codeup-button" href="http://www.amazon.com/Chicken-Soup-Heart-Esther-Hershenhorn/dp/1442421975/ref=sr_1_1?ie=UTF8&qid=1437064758&sr=8-1&keywords=chicken+soup+by+heart" target="_blank" class="top-buffer-4 left-aligned btn btn-lg button-contact my-button" role="button">Buy<br>on Amazon</a>
                 </div>
                 </div>
                 <br>
@@ -268,7 +268,7 @@
                 <img class="col-md-2 offset-one-fifth top-buffer " src="/img/book-lowells-party.jpg">
                 
                 <div class="col-md-6">
-                    <h2><em>Lengthy Title</em>
+                    <h2><em>There Goes Lowell's Party</em>
                     </h2>
                     <p>
                         Written by Esther Hershenhorn <br>

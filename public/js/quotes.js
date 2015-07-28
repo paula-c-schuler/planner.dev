@@ -6,6 +6,6 @@ $(document).ready(function(){
 	// $('author-name').fadeIn(1500);
 	// $('author-titles').fadeIn(1500);
 	$('.my-hero').mouseenter(function() {
-		$('#index-quotes').fadeIn(4000);
+		$('#index-quotes').fadeIn(2000);
 	});
 });
