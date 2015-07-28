@@ -86,9 +86,9 @@
         <!-- images and copy -->
         <section class="row">
             <div class="long-version-group"></div>
-            <img class="story-images col-md-6 image-girl" src="/img/esther-girl-sepia.jpg">
+            <img class="story-images column col-1-2 image-girl" src="/img/esther-girl-sepia.jpg">
             
-            <div class="long-version-text col-md-6">
+            <div class="long-version-text column col-1-2">
             	<br>
             	<br>
                 <br>
@@ -113,9 +113,9 @@
 
         <section class="row row-top-buffer">
             
-			<img class="story-images col-md-6" src="img/Penn-Wynn-sepia.jpg">
+			<img class="story-images column col-1-2" src="img/Penn-Wynn-sepia.jpg">
             
-            <div class="long-version-text col-md-6">
+            <div class="long-version-text column col-1-2">
                 <br>
                 <br>
                 <p>
@@ -139,9 +139,9 @@
         </section>
         <section class="row row-top-buffer">
            
-            <img class="story-images col-md-6" src="img/Penn-Wynn-sepia.jpg">
+            <img class="story-images column col-1-2" src="img/Penn-Wynn-sepia.jpg">
             
-            <div class="long-version-text col-md-6">
+            <div class="long-version-text column col-1-2">
                 <br>
                 <br>
                 <p>
