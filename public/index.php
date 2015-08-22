@@ -16,7 +16,7 @@
 
     <script src="https://use.fonticons.com/6f4f57ed.js"></script>
 
-  <title>Esther Home</title>
+  <title>Esther Project</title>
 
 </head>
 <body>
@@ -47,9 +47,10 @@
                 <a class="summary-icon" href="about.php"><i class="icon icon-5x icon-star"></i></a>
                 <h3 class="summary-header ">About</h3>
                 <p class="summary">
-                    Lucky me! I spend my days doing what I love and loving what I do! I write 
-                    picture books, board books, middle grade fiction. I teach adults writing for
-                    children and coach writers of all ages to help them tell their stories. 
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.  
                 </p>
                 <a class="summary-more" href="about.php">More</a>
 
@@ -70,10 +71,10 @@
                 <!-- <a  id="contact-button" target="_blank" href="http://codeup.com/" class="btn btn-lg button-contact my-button" role="button">About</a> -->
                 <h3 class="summary-header">Coaching</h3>
                 <p class="summary">
-                    Working with writers wherever they are in the writing and publishing process, I help them
-                    discover, craft and market their stories. Coaching clients include authors who publish 
-                    through traditional and independent channels. I conduct one-on-one sessions in person 
-                    or on communications devices for manuscript feedback and immediate answers to questions. 
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. 
                 </p>
                 <a class="summary-more" href="coaching.php">More</a>
             </div>  
