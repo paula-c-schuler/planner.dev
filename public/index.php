@@ -46,6 +46,8 @@
                     but because they tell us that dragons can be beaten."<br>- G. K. Chesterton</p>
             </div>
         </section>
+        <!-- Contact Button -->
+        <?php include 'contact-button.html'; ?>
 
         <!-- Begin Summaries -->
         <div class="summary-row row ">
