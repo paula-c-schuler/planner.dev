@@ -1,5 +1,10 @@
 <?php 
 
+// Version 1.0 
+// by Paula Schuler
+// Next iteration, improve navigation
+
+
  ?>
 
 <!DOCTYPE html>
@@ -21,7 +26,7 @@
 </head>
 <body>
     <!-- Navigation Bar Top -->
-    <?php include 'navbar.php'; ?>
+    
 
     <!-- Begin Container -->
     <div class="container">
@@ -88,6 +93,7 @@
         <!-- Contact Button -->
         <?php include 'contact-button.html'; ?>
     </div>
+    <?php include 'navbar.php'; ?>
     <!-- Footer -->
     <?php include 'footer.php'; ?>
 
