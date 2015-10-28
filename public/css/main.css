@@ -108,27 +108,38 @@ img {
   height: auto; 
 }
 
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
 
 /*-------------------------------------*\
-	NAVIGATION BAR
+	NAVIGATION BAR AND FOOTER
 \*-------------------------------------*/
 /*
  * Auto adjusts height of nav and footer.
  * Prevents images from scrolling on top of nav and footer.
  */
 #navigation-top, footer {
-	height: auto;
-	z-index: 100;
-	width: 100%;
-	background: black;
+	display: hidden;
 }
 
 #navigation-top {
-	position: fixed;
-	margin: 0 auto;
+	/*position: fixed;*/
+	/*margin: 0 auto;*/
 }
 
-#navigation-top li, footer li  {
+#navigation-top li {
+	/*display: hidden;*/
+} 
+
+footer li  {
 	list-style-type: none;
 	padding: 1.5rem;
 	font-weight: bold;
@@ -139,6 +150,33 @@ img {
 footer {
 	padding-top: 1.5rem;
 }
+
+/*FROM ATKINS GROUP*/
+/*.w-inline-block {
+    max-width: 100%;
+    /*display: inline-block;
+ }*/
+
+
+/*.nav-dot {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-bottom: 1px;
+    padding: 10px 15px;
+    float: right;
+    clear: both;
+    background-color: rgba(255, 255, 255, 0.6);
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    color: #4d4d4d;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 800;
+    text-align: right;
+    text-decoration: none;
+    text-transform: uppercase;
+}*/
 
 /* NAV - SMALL SCREEN*/
 /*=================================================*/
