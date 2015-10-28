@@ -330,10 +330,13 @@ footer li {
 	text-align: center;
 	margin-bottom: 0;
 }
-.hero-message #author-titles {
+.hero-message #author-titles-short-version {
 	display: inline-block;
 	text-align: center;
 	font-size: 3rem;
+}
+.hero-message #author-titles {
+	display: hidden;
 }
 .hero-solid-color #index-quotes {
 	opacity: 0;

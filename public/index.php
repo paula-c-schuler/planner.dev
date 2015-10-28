@@ -26,7 +26,7 @@
 </head>
 <body>
     <!-- Navigation Bar Top -->
-    
+    <?php include 'navbar.php'; ?>
 
     <!-- Begin Container -->
     <div class="container">
@@ -35,6 +35,7 @@
         <section class="my-hero">
             <div id="hero-message" class="hero-message">
                 <h1 id="author-name">Esther Hershenhorn</h1>
+                <h2 id="author-titles-shortversion">Author and Coach</h2>
                 <h2 id="author-titles">Award-winning Author and Coach</h2>
             </div>
             <div class="half-white hero-overlay"></div>
