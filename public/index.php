@@ -47,7 +47,7 @@
             </div>
         </section>
         <!-- Contact Button -->
-        <?php include 'contact-button.html'; ?>
+        <?php include 'contact-button.php'; ?>
 
         <!-- Begin Summaries -->
         <div class="summary-row row ">
@@ -94,7 +94,7 @@
         
 
         <!-- Contact Button -->
-        <?php include 'contact-button.html'; ?>
+        <?php include 'contact-button.php'; ?>
     </div>
     <!-- Footer -->
     <?php include 'footer.php'; ?>
