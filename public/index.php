@@ -93,7 +93,6 @@
         <!-- Contact Button -->
         <?php include 'contact-button.html'; ?>
     </div>
-    <?php include 'navbar.php'; ?>
     <!-- Footer -->
     <?php include 'footer.php'; ?>
 

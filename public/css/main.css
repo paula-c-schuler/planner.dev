@@ -136,7 +136,7 @@ nav {
 }
 
 nav ul li {
-	/*display: hidden;*/
+	display: hidden;
 } 
 
 footer li  {
