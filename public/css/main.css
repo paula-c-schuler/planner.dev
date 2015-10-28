@@ -374,7 +374,7 @@ footer li {
 	text-align: center;
 }
 .hero-message #author-titles-short-version {
-	display: hidden;
+	display: none;
 }
 .hero-message #author-titles {
 	display: inline-block;
