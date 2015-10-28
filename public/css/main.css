@@ -126,16 +126,16 @@ ul, menu, dir {
  * Auto adjusts height of nav and footer.
  * Prevents images from scrolling on top of nav and footer.
  */
-#navigation-top, footer {
+nav, footer {
 	display: hidden;
 }
 
-#navigation-top {
+nav {
 	/*position: fixed;*/
-	/*margin: 0 auto;*/
+	margin: 0 auto;
 }
 
-#navigation-top li {
+nav ul li {
 	/*display: hidden;*/
 } 
 
