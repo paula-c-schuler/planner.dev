@@ -287,6 +287,8 @@ section.my-hero {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	position: fixed;
+	margin-top: 0;
 	width: 100%;
 	height: 35rem;
 	/*margin-bottom: 1rem;*/
