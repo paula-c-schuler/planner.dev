@@ -26,8 +26,9 @@
 </head>
 <body>
     <!-- Navigation Bar Top -->
+    <div class="navbar">
     <?php include 'navbar.php'; ?>
-
+    </div>
     <!-- Begin Container -->
     <div class="container">
 
@@ -46,9 +47,7 @@
                     but because they tell us that dragons can be beaten."<br>- G. K. Chesterton</p>
             </div>
         </section>
-        <!-- Contact Button -->
-        <?php include 'contact-button2.php'; ?>
-
+        
         <!-- Begin Summaries -->
         <div class="summary-row row ">
             <div class="summary-group col-md-4 top-buffer-8">
