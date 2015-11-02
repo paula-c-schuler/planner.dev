@@ -284,7 +284,7 @@ footer li {
 	-o-background-size: cover;
 	background-size: cover;
 	width: 100%;
-	height: 15rem;
+	/*height: 15rem;*/
 	background-image: url("/img/cc/textura-de-color-azul-jkbenites-flickr.jpg");
 }
 
