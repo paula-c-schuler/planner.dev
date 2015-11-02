@@ -96,7 +96,9 @@
         
 
         <!-- Contact Button -->
+        <div>
         <?php include 'contact-button.php'; ?>
+        </div>
     </div>
     <!-- Footer -->
     <?php include 'footer.php'; ?>
