@@ -129,6 +129,11 @@ ul, menu, dir {
 /*nav, footer {
 	display: none;
 }*/
+.mobile-button {
+	width: 100%;
+	background-color: white; 
+	opacity: 50;
+}
 .navbar {
 	display: none;
 }
@@ -312,9 +317,7 @@ section.my-hero {
 	color: white;
 	opacity: 0;
 }
-div #moving-button {
-	float: left;
-}
+
 
 
 /* HERO - SMALL SCREEN */

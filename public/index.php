@@ -29,6 +29,9 @@
     <div class="navbar">
     <?php include 'navbar.php'; ?>
     </div>
+    <div>
+        <?php include 'contact-button2.php'; ?>
+    </div>
     <!-- Begin Container -->
     <div class="container">
 
@@ -96,9 +99,9 @@
         
 
         <!-- Contact Button -->
-        <div id="moving-button">
+        
         <?php include 'contact-button.php'; ?>
-        </div>
+        
     </div>
     <!-- Footer -->
     <?php include 'footer.php'; ?>
