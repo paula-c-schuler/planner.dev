@@ -289,14 +289,13 @@ section.my-hero {
 }
 
 .hero-message {
-	/*padding-top: 3rem;*/
-	/*padding-bottom: 1rem;*/
 	text-align: center;
 	color: #F1F1F2;
 	font-weight: bolder;
 	font-size: 2rem;
 }
 .hero-message #author-name {
+	margin-top: 0;
 	/*text-align: center;*/
 	/*padding-top: 0rem;*/
 }
