@@ -282,7 +282,7 @@ footer li {
 \*-------------------------------------*/
 /* EXTRA SMALL SCREEN less than 501px */
 /*===========================================================*/
-section.my-hero {
+.my-hero {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
