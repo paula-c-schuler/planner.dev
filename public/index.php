@@ -96,7 +96,7 @@
         
 
         <!-- Contact Button -->
-        <div>
+        <div id="moving-button">
         <?php include 'contact-button.php'; ?>
         </div>
     </div>
