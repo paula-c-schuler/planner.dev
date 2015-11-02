@@ -30,7 +30,7 @@
     <?php include 'navbar.php'; ?>
     </div>
     <div>
-        <?php include 'contact-button2.php'; ?>
+        <?php include 'contact-button.php'; ?>
     </div>
     <!-- Begin Container -->
     <div class="container">
