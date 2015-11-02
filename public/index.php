@@ -51,18 +51,6 @@
         <!-- Begin Summaries -->
         <div class="summary-row row ">
             <div class="summary-group col-md-4 top-buffer-8">
-                <a class="summary-icon" href="about.php"><i class="icon icon-5x icon-star"></i></a>
-                <h3 class="summary-header ">About</h3>
-                <p class="summary">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.  
-                </p>
-                <a class="summary-more" href="about.php">More</a>
-
-            </div>  
-            <div class="summary-group col-md-4 top-buffer-8">
                 <a class="" href="books.php"><i class="icon icon-5x icon-book"></i></a>
                 <h3 class="summary-header">Books</h3>
                 <p class="summary">
@@ -73,6 +61,7 @@
                 </p>
                 <a class="summary-more" href="books.php">More</a>
             </div>
+            
             <div class="summary-group col-md-4 top-buffer-8">
                 <a class="" href="coaching.php"><i class="icon icon-5x icon-exchange"></i></a>
                 <!-- <a  id="contact-button" target="_blank" href="http://codeup.com/" class="btn btn-lg button-contact my-button" role="button">About</a> -->
@@ -84,7 +73,21 @@
                     consequat. 
                 </p>
                 <a class="summary-more" href="coaching.php">More</a>
+            </div> 
+
+            <div class="summary-group col-md-4 top-buffer-8">
+                <a class="summary-icon" href="about.php"><i class="icon icon-5x icon-star"></i></a>
+                <h3 class="summary-header ">About</h3>
+                <p class="summary">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.  
+                </p>
+                <a class="summary-more" href="about.php">More</a>
+
             </div>  
+             
             </hr>  
         </div>
         <!-- Divider -->
