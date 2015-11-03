@@ -2,7 +2,7 @@
 
 // Version 1.0 
 // by Paula Schuler
-// Next iteration, improve navigation
+// Next iteration, improve mobile user experience
 
 
  ?>
@@ -26,12 +26,10 @@
 </head>
 <body>
     <!-- Navigation Bar Top -->
-    <div class="navbar">
     <?php include 'navbar.php'; ?>
-    </div>
-    <div>
+    <!-- <div>
         <?php include 'contact-button.php'; ?>
-    </div>
+    </div> -->
     <!-- Begin Container -->
     <div class="container">
 
