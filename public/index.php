@@ -37,8 +37,8 @@
         <section class="my-hero">
             <div id="hero-message" class="hero-message">
                 <h1 id="author-name">Esther Hershenhorn</h1>
-                <h2 id="author-titles-shortversion">Author and Coach</h2>
-                <h2 id="author-titles">Award-winning Author and Coach</h2>
+                <!-- <h2 id="author-titles-shortversion">Author and Coach</h2> -->
+                <h1 id="author-titles"><span>Award-winning </span> Teacher, Author, Coach</h1>
             </div>
             <div class="half-white hero-overlay"></div>
             <div class="hero-solid-color">
