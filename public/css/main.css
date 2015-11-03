@@ -129,25 +129,30 @@ ul, menu, dir {
 /*nav, footer {
 	display: none;
 }*/
-/*.mobile-button {
-	width: 100%;
-	background-color: white; 
-	opacity: 50;
-	margin: 0;
-	position: fixed;
-}*/
-/*.navbar {
-	display: inline-block;
-}*/
+
 
 nav {
 	margin: 0 auto;
+	position: fixed;
 }
-
 nav ul li {
 	display: inline-block;
 } 
-
+nav, footer {
+		height: auto;
+		z-index: 100;
+		width: 100%;
+		background: black;
+}
+#navigation-top li, footer li  {
+	list-style-type: none;
+	padding: 1.5rem;
+	font-weight: bold;
+	width: 9rem;
+}
+footer {
+	padding-top: 1.5rem;
+}
 footer li  {
 	list-style-type: none;
 	padding: 1.5rem;
@@ -156,15 +161,6 @@ footer li  {
 	width: 100%;
 	margin: 0 auto;
 }
-footer {
-	padding-top: 1.5rem;
-}
-#navigation-top li, footer li  {
-		list-style-type: none;
-		padding: 1.5rem;
-		font-weight: bold;
-		width: 9rem;
-	}
 
 /*FROM ATKINS GROUP*/
 /*.w-inline-block {
@@ -200,37 +196,26 @@ footer {
 	 * Auto adjusts height of nav and footer.
 	 * Prevents images from scrolling on top of nav and footer.
 	 */
-	/*.mobile-button {
-	width: 100%;
-	background-color: white; 
-	opacity: 50;
-	margin: 0;
+	nav {
+	margin: 0 auto;
 	position: fixed;
-	}*/
-	/*.navbar {
-		display: inline-block;
-	}*/
+	}
 	nav ul li {
 	display: inline-block;
 	} 
-	#navigation-top, footer {
+	nav, footer {
 		height: auto;
 		z-index: 100;
 		width: 100%;
 		background: black;
 	}
-
-	#navigation-top {
-		position: fixed;
-		margin: 0 auto;
-	}
-
 	#navigation-top li, footer li  {
 		list-style-type: none;
 		padding: 1.5rem;
 		font-weight: bold;
 		width: 10rem;
 	}
+
 	footer li {
 		padding-top: 1.5rem;
 	}
@@ -247,24 +232,19 @@ footer {
 	 /*.mobile-button {
 	 	display: none;
 	 }*/
-	 .navbar {
-		display: inline-block;
-	}
+	nav {
+		position: fixed;
+		margin: 0 auto;
+	} 
 	nav ul li {
 	display: inline-block;
 	} 
-	#navigation-top, footer {
+	nav, footer {
 		height: auto;
 		z-index: 100;
 		width: 100%;
 		background: black;
 	}
-
-	#navigation-top {
-		position: fixed;
-		margin: 0 auto;
-	}
-
 	#navigation-top li, footer li  {
 		list-style-type: none;
 		padding: 1.5rem;
@@ -283,30 +263,28 @@ footer {
  * Auto adjusts height of nav and footer.
  * Prevents images from scrolling on top of nav and footer.
  */
- /*.mobile-button {
- 	display: none;
- }*/
-#navigation-top, footer {
-	height: auto;
-	z-index: 100;
-	width: 100%;
-	background: black;
-}
-
-#navigation-top {
-	position: fixed;
-	margin: 0 auto;
-}
-
-#navigation-top li, footer li  {
-	list-style-type: none;
-	padding: 1.5rem;
-	font-weight: bold;
-	width: 20rem;
-}
-footer li {
-	padding-top: 1.5rem;
-}
+	nav {
+		position: fixed;
+		margin: 0 auto;
+	}
+	nav ul li {
+		display: inline-block;
+		}
+	nav, footer {
+		height: auto;
+		z-index: 100;
+		width: 100%;
+		background: black;
+	}
+	#navigation-top li, footer li  {
+		list-style-type: none;
+		padding: 1.5rem;
+		font-weight: bold;
+		width: 15rem;
+	}
+	footer li {
+		padding-top: 1.5rem;
+	}
 }
 
 
