@@ -126,10 +126,6 @@ ul, menu, dir {
  * Auto adjusts height of nav and footer.
  * Prevents images from scrolling on top of nav and footer.
  */
-/*nav, footer {
-	display: none;
-}*/
-
 
 nav {
 	margin: 0 auto;
@@ -161,33 +157,7 @@ footer li  {
 	width: 100%;
 	margin: 0 auto;
 }
-
-/*FROM ATKINS GROUP*/
-/*.w-inline-block {
-    max-width: 100%;
-    /*display: inline-block;
- }*/
-
-
-/*.nav-dot {
-    display: inline-block;
-    width: auto;
-    height: auto;
-    margin-bottom: 1px;
-    padding: 10px 15px;
-    float: right;
-    clear: both;
-    background-color: rgba(255, 255, 255, 0.6);
-    -webkit-transition: all 300ms ease;
-    transition: all 300ms ease;
-    color: #4d4d4d;
-    font-size: 12px;
-    line-height: 20px;
-    font-weight: 800;
-    text-align: right;
-    text-decoration: none;
-    text-transform: uppercase;
-}*/
+   
 
 /* NAV - SMALL SCREEN*/
 /*=================================================*/
@@ -229,9 +199,6 @@ footer li  {
 	 * Auto adjusts height of nav and footer.
 	 * Prevents images from scrolling on top of nav and footer.
 	 */
-	 /*.mobile-button {
-	 	display: none;
-	 }*/
 	nav {
 		position: fixed;
 		margin: 0 auto;
@@ -293,7 +260,7 @@ footer li  {
 \*-------------------------------------*/
 /* EXTRA SMALL SCREEN less than 501px */
 /*===========================================================*/
-section.my-hero {
+.my-hero {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -318,11 +285,27 @@ section.my-hero {
 #author-titles span {
 	display: none;
 }
+
+
 .hero-solid-color #index-quotes {
 	display: none;
-	color: white;
+	/*color: #84ADDF;*/
+	color: red;
 	opacity: 0;
 }
+.hero-overlay {
+	display: none;
+	width: 100%;
+	height: 6rem;
+	background: rgba(255, 255, 255, 0.5);
+}
+/*.hero-solid-color {
+	display: none;
+	width: 100%;
+	height: 10rem;
+	background-color: #84ADDF;
+	
+}*/
 
 
 
@@ -330,7 +313,7 @@ section.my-hero {
 /*============================================================*/
 @media screen and (min-width:501px) {
 
-	section.my-hero {
+	.my-hero {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -355,11 +338,26 @@ section.my-hero {
 	#author-titles span {
 		display: none;
 	}
+
+
 	.hero-solid-color #index-quotes {
 		display: none;
-		color: white;
+		/*color: #84ADDF;*/
+		color: red;
 		opacity: 0;
 	}
+	.hero-overlay {
+		display: none;
+		width: 100%;
+		height: 6rem;
+		background: rgba(255, 255, 255, 0.5);
+	}
+	/*.hero-solid-color {
+		display: none;
+		width: 100%;
+		height: 10rem;
+		background-color: #84ADDF;
+	}*/
 }
 
 
@@ -394,22 +392,23 @@ section.my-hero {
 
 	.hero-solid-color #index-quotes {
 		display: none;
-		color: #84ADDF;
+		/*color: #84ADDF;*/
+		color: red;
 		opacity: 0;
 	}
 
 	.hero-overlay {
-		display: none;
+		/*display: none;*/
 		width: 100%;
 		height: 6rem;
+		background: rgba(255, 255, 255, 0.5);
 	}
-	.hero-solid-color {
+	/*.hero-solid-color {
 		display: none;
 		width: 100%;
 		height: 10rem;
 		background-color: #84ADDF;
-		
-	}
+	}*/
 	
 }
 
@@ -417,21 +416,20 @@ section.my-hero {
 /*===============================================================*/
 @media screen and (min-width:992px) {
 	.my-hero {
-		display: hidden;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
 		width: 100%;
-		height: 58rem;
+		height: 50rem;
 		background-image: url("/img/cc/textura-de-color-azul-jkbenites-flickr.jpg");}
 
 	.hero-message {
-		/*padding-top: 10rem;*/
+		height: 58rem;
 		text-align: center;
 		color: #F1F1F2;
 		font-weight: bolder;
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 	.hero-message #author-name {
 		padding-top: 5rem;
@@ -443,27 +441,38 @@ section.my-hero {
 		display: inline-block;
 	}
 
+/* WHY DO I NEED TO CENTER THIS WHEN 
+ I DID NOT NEED TO IN QUERIES ABOVE? 
+ WHAT IS DIFFERENT ABOUT THIS QUERY THAT
+ PUSHES THE HERO-SOLID-COLOR OUT OF
+ THE HERO SECTION? 
 
+ Found it. It was div tag placement */
 	.hero-solid-color #index-quotes {
 		display: none;
+		padding-top: 5rem;
 		text-align: center;
-		color: #093266;
-		font-size: 2rem;
-		margin: 0 auto;
+		/*color: #093266;*/
+		font-weight: normal;
+		color: white;
+		margin: auto;
 		opacity: 1;
 	}
 
 	.hero-overlay {
-		display: none;
+		/*display: none;*/
 		width: 100%;
 		height: 12rem;
+		background-color: green;
+		/*background: rgba(255, 255, 255, 0.5);*/
 	}
-	.hero-solid-color {
+	/*.hero-solid-color {
 		display: none;
+		margin-top: 0;
 		width: 100%;
-		height: 22rem;
+		height: 10rem;
 		background-color: #84ADDF;
-	}
+	}*/
 	
 }
 
@@ -541,7 +550,7 @@ section.my-hero {
 	margin-right: auto;
 }
 .summary-group p {
-	width: 95%;
+	width: 60%;
 	text-align: left;
 	margin-left: auto;
 	margin-right: auto;

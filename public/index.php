@@ -34,19 +34,22 @@
     <div class="container">
 
         <!-- Hero -->
-        <section class="my-hero">
+        <section class="row my-hero">
             <div id="hero-message" class="hero-message">
                 <h1 id="author-name">Esther Hershenhorn</h1>
                 <!-- <h2 id="author-titles-shortversion">Author and Coach</h2> -->
                 <h1 id="author-titles"><span>Award-winning </span> Teacher, Author, Coach</h1>
+    
+            
+                <div class="hero-overlay"></div>
+                <div class="hero-solid-color">
+                    <br>
+                    <p id="index-quotes"><br><em>"Fairy tales are more than true;<br>
+                        not because they tell us that dragons exist,<br>
+                        but because they tell us that dragons can be beaten."<em><br>- G. K. Chesterton</p>
+                </div>
             </div>
-            <div class="half-white hero-overlay"></div>
-            <div class="hero-solid-color">
-                <br>
-                <p id="index-quotes"><br>"Fairy tales are more than true;<br>
-                    not because they tell us that dragons exist,<br>
-                    but because they tell us that dragons can be beaten."<br>- G. K. Chesterton</p>
-            </div>
+            
         </section>
         
         <!-- Begin Summaries -->
