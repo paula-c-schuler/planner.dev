@@ -2,8 +2,8 @@
 
 // Version 1.0 
 // by Paula Schuler
-// Next iteration, improve mobile user experience
-
+// Future iteration, use JS to add quotes to overlay header image
+// Next iteration, use JS add MORE button to populate "long story" on about page
 
  ?>
 
@@ -27,9 +27,7 @@
 <body>
     <!-- Navigation Bar Top -->
     <?php include 'navbar.php'; ?>
-    <!-- <div>
-        <?php include 'contact-button.php'; ?>
-    </div> -->
+    
     <!-- Begin Container -->
     <div class="container">
 
@@ -37,10 +35,8 @@
         <section class="row my-hero">
             <div id="hero-message" class="hero-message">
                 <h1 id="author-name">Esther Hershenhorn</h1>
-                <!-- <h2 id="author-titles-shortversion">Author and Coach</h2> -->
-                <h1 id="author-titles"><span>Award-winning </span> Teacher, Author, Coach</h1>
+                <h1 id="author-titles"><span id="extraTitle">Award-winning </span> Teacher, Author, Coach</h1>
     
-            
                 <div class="hero-overlay"></div>
                 <div class="hero-solid-color">
                     <br>

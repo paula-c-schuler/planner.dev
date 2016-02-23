@@ -275,19 +275,22 @@ footer li  {
 	color: #F1F1F2;
 	font-weight: bolder;
 	font-size: 2rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	
 }
-.hero-message #author-name {
-	padding-top: 5rem;
+#author-name {
+	line-height: 2.5rem;
+	padding: 3rem 1rem 0rem 1rem;
 }
+
 #author-titles {
-	font-size: 3rem;
+	font-size: 2.5rem;
 }
-#author-titles span {
+#extraTitle {
 	display: none;
 }
-
-
-.hero-solid-color #index-quotes {
+#index-quotes {
 	display: none;
 	/*color: #84ADDF;*/
 	color: red;
@@ -329,18 +332,18 @@ footer li  {
 		font-weight: bolder;
 		font-size: 2rem;
 	}
-	.hero-message #author-name {
-		padding-top: 5rem;
+	#author-name {
+		line-height: 2.5rem;
+		padding: 3rem 1rem 0rem 1rem;
 	}
 	#author-titles {
-		font-size: 3rem;
+	font-size: 2.5rem;
 	}
-	#author-titles span {
+	#extraTitle {
 		display: none;
 	}
 
-
-	.hero-solid-color #index-quotes {
+	#index-quotes {
 		display: none;
 		/*color: #84ADDF;*/
 		color: red;
@@ -379,7 +382,7 @@ footer li  {
 		font-weight: bolder;
 		font-size: 2rem;
 	}
-	.hero-message #author-name {
+	#author-name {
 		padding-top: 5rem;
 	}
 	#author-titles {
@@ -390,11 +393,11 @@ footer li  {
 	}
 
 
-	.hero-solid-color #index-quotes {
-		display: none;
-		/*color: #84ADDF;*/
+	#index-quotes {
+		/*display: none;*/
+		color: #84ADDF;
 		color: red;
-		opacity: 0;
+		/*opacity: 0;*/
 	}
 
 	.hero-overlay {
@@ -403,12 +406,12 @@ footer li  {
 		height: 6rem;
 		background: rgba(255, 255, 255, 0.5);
 	}
-	/*.hero-solid-color {
+	.hero-solid-color {
 		display: none;
 		width: 100%;
 		height: 10rem;
 		background-color: #84ADDF;
-	}*/
+	}
 	
 }
 
@@ -459,6 +462,8 @@ footer li  {
 		opacity: 1;
 	}
 
+/* Working on getting overlay to work
+again the way I like it */
 	.hero-overlay {
 		/*display: none;*/
 		width: 100%;
@@ -564,7 +569,7 @@ footer li  {
 
 
 /*-------------------------------------*\
-	ABOUT PAGE "SHORT VERSION" SECTION
+	ABOUT PAGE -- BOTH SECTIONS
 \*-------------------------------------*/
 /* EXTRA SMALL SCREEN less than 501px */
 /*===========================================================*/
@@ -625,22 +630,11 @@ footer li  {
 	height: .1rem;
 }
 
-/* Begins next section of story */
-.long-version-group {
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-}
-.long-version-header {
-	text-align: center;
-}
-.story-images {
-	margin-right: auto;
-	margin-left: auto;
-}
-.long-version-text p {
-	width: 95%;
-}
+/*-------------------------------------*\
+ "MORE OF THE STORY" SECTION
+\*-------------------------------------*/
+
+
 
 /* ABOUT - SMALL-TO-MEDIUM SCREENS AND LARGER 
 /*===============================================================*/
@@ -694,6 +688,13 @@ footer li  {
 	background-color: grey;
 	height: .1rem;
 }
+/*#hideMoreStory {
+	display: none;
+}
+.long-version-group  {
+	display: none;
+	height: 1px;
+}
 .long-version-header {
 	text-align: center;
 }
@@ -702,8 +703,9 @@ footer li  {
 	margin-left: auto;
 }
 .long-version-text p {
-	width: 75%;
-}
+	width: 90%;
+}*/
+
 }
 
 /* ABOUT - MEDIUM SCREENS AND LARGER 
@@ -761,6 +763,10 @@ footer li  {
 	background-color: grey;
 	height: .2rem;
 }
+/*.long-version-group {
+	margin-right: auto;
+	margin-left: auto;
+}
 .long-version-header {
 	text-align: center;
 }
@@ -770,7 +776,7 @@ footer li  {
 }
 .long-version-text p {
 	width: 60%;
-}
+}*/
 }
 
 
@@ -828,6 +834,10 @@ footer li  {
 	background-color: grey;
 	height: .2rem;
 }
+/*.long-version-group {
+	margin-right: auto;
+	margin-left: auto;
+}
 .long-version-header {
 	text-align: center;
 }
@@ -837,7 +847,7 @@ footer li  {
 }
 .long-version-text p {
 	width: 90%;
-}
+}*/
 }
 
 /*-------------------------------------*\
